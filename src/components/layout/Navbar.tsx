@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { site } from "@/lib/site";
 
 /**
@@ -6,11 +9,15 @@ import { site } from "@/lib/site";
  * Mobile: wordmark + call icon only — the MobileDock handles navigation.
  */
 export default function Navbar() {
+  const pathname = usePathname();
+  const isActive = (href: string) =>
+    href === "/" ? pathname === "/" : pathname.startsWith(href);
+
   return (
     <header className="sticky top-0 z-40 border-b border-hairline-light bg-bone/90 backdrop-blur-sm">
       <div className="mx-auto flex h-16 w-full max-w-site items-center justify-between px-6 md:px-16">
         <Link href="/" className="flex items-baseline gap-2">
-          <span className="font-display text-xl font-medium">
+          <span className="font-display text-xl font-bold">
             Aastha<span className="text-ember">.</span>
           </span>
           <span className="hidden font-mono text-[0.65rem] uppercase tracking-[0.12em] text-text-muted sm:inline">
@@ -20,15 +27,23 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-8 md:flex">
-          {site.nav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-sm font-medium text-charcoal transition-colors hover:text-ember"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {site.nav.map((item) => {
+            const active = isActive(item.href);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                className={`relative text-sm font-medium transition-colors after:absolute after:-bottom-1 after:left-0 after:h-px after:bg-ember after:transition-all after:duration-300 hover:text-ember hover:after:w-full ${
+                  active
+                    ? "text-ember after:w-full"
+                    : "text-charcoal after:w-0"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
           <a
             href={site.phone.href}
             className="font-mono text-label font-medium uppercase text-charcoal transition-colors hover:text-ember"

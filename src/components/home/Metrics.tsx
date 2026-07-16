@@ -7,7 +7,11 @@ import Reveal from "@/components/motion/Reveal";
  * Projects metric renders only after Hitesh confirms the real figure
  * (site.metrics.projectsCompleted stays null until then).
  */
-export default function Metrics() {
+export default function Metrics({
+  label = "05 — In numbers",
+}: {
+  label?: string;
+}) {
   const { yearsOfWork, clientCount, googleRating, projectsCompleted } =
     site.metrics;
 
@@ -25,7 +29,7 @@ export default function Metrics() {
       <div className="mx-auto w-full max-w-site px-6 py-16 md:px-16 md:py-24">
         <Reveal>
           <p className="font-mono text-label font-medium uppercase text-text-muted">
-            05 — In numbers
+            {label}
           </p>
         </Reveal>
         <Reveal
@@ -34,7 +38,7 @@ export default function Metrics() {
         >
           {items.map((item) => (
             <div key={item.label}>
-              <p className="font-display text-metric font-medium">
+              <p className="font-display text-metric font-bold">
                 <Counter to={item.value} decimals={item.decimals ?? 0} />
                 <span className="text-ember">{item.suffix}</span>
               </p>

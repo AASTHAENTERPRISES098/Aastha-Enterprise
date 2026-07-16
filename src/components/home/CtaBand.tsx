@@ -6,15 +6,19 @@ import Reveal from "@/components/motion/Reveal";
  * §7 CTA band (charcoal) — the ONE shimmer headline per page
  * (Dia Text Reveal, restyled: bone→ember sweep).
  */
-export default function CtaBand() {
+export default function CtaBand({
+  label = "07 — Start a conversation",
+}: {
+  label?: string;
+}) {
   return (
     <section className="bg-charcoal">
       <div className="mx-auto w-full max-w-site px-6 py-24 text-center md:px-16 md:py-36">
         <Reveal>
           <p className="font-mono text-label font-medium uppercase text-stone-muted">
-            07 — Start a conversation
+            {label}
           </p>
-          <h2 className="mx-auto mt-8 max-w-[16ch] font-display text-h2 font-medium text-bone">
+          <h2 className="mx-auto mt-8 max-w-[16ch] font-display text-h2 font-bold text-bone">
             <span className="text-shimmer">Have a project</span>{" "}
             <span className="italic text-shimmer">in mind</span>
             <span className="text-ember">?</span>

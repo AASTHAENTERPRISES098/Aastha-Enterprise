@@ -7,13 +7,17 @@ import Reveal from "@/components/motion/Reveal";
  * ⚠ Content rule: this slot must use a REAL project photo (Hitesh's PDF /
  * WhatsApp pipeline) — never AI imagery. Showcase project 1 of 6.
  */
-export default function FeaturedProject() {
+export default function FeaturedProject({
+  label = "04 — Featured work",
+}: {
+  label?: string;
+}) {
   return (
     <section className="relative overflow-hidden bg-charcoal text-bone">
       {/* Ghost numeral */}
       <span
         aria-hidden
-        className="pointer-events-none absolute -right-6 top-8 select-none font-display text-[16rem] font-medium leading-none text-bone/[0.04] md:text-[24rem]"
+        className="pointer-events-none absolute -right-6 top-8 select-none font-display text-[16rem] font-bold leading-none text-bone/[0.04] md:text-[24rem]"
       >
         01
       </span>
@@ -22,7 +26,7 @@ export default function FeaturedProject() {
         <Reveal>
           <div className="flex items-baseline justify-between">
             <p className="font-mono text-label font-medium uppercase text-stone-muted">
-              04 — Featured work
+              {label}
             </p>
             <p className="font-mono text-label font-medium uppercase text-stone-muted">
               01 / 06
@@ -40,7 +44,7 @@ export default function FeaturedProject() {
           </Reveal>
 
           <Reveal delay={0.1} className="lg:col-span-5">
-            <h2 className="font-display text-h2 font-medium leading-tight">
+            <h2 className="font-display text-h2 font-bold leading-tight">
               Central Bus Station,{" "}
               <span className="italic">Ved Transcube Plaza</span>
             </h2>

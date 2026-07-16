@@ -7,7 +7,7 @@
 
 @theme {
   /* Core palette */
-  --color-bone: #efeae2;
+  --color-bone: #f8f6f1;
   --color-stone: #d8d2c7;
   --color-charcoal: #26241f;
   --color-ember: #c7501f;
@@ -47,8 +47,8 @@
 
 /* Font families come from next/font CSS variables set on <html> */
 @theme inline {
-  --font-display: var(--font-boska), Georgia, "Times New Roman", serif;
-  --font-sans: var(--font-general-sans), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-libre-caslon), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-pontano-sans), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", monospace;
 }
 

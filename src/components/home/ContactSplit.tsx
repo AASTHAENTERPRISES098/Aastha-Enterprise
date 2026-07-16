@@ -12,7 +12,7 @@ export default function ContactSplit() {
           <p className="font-mono text-label font-medium uppercase text-text-muted">
             08 — Get in touch
           </p>
-          <h2 className="mt-6 font-display text-h2 font-medium">
+          <h2 className="mt-6 font-display text-h2 font-bold">
             Tell us about{" "}
             <span className="italic underline decoration-ember decoration-2 underline-offset-4">
               your project

@@ -20,7 +20,7 @@ export default function Marquee({
           key={item}
           className="flex items-center whitespace-nowrap px-6 md:px-10"
         >
-          <span className="font-display text-xl font-medium uppercase tracking-wide text-charcoal md:text-2xl">
+          <span className="font-display text-xl font-bold uppercase tracking-wide text-charcoal md:text-2xl">
             {item}
           </span>
           <span

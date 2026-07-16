@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-charcoal-deep text-bone">
       <div className="mx-auto w-full max-w-site px-6 py-10 md:px-16">
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <p className="font-display text-xl font-medium">
+          <p className="font-display text-xl font-bold">
             Aastha<span className="text-ember">.</span>
             <span className="ml-3 font-mono text-[0.65rem] font-medium uppercase tracking-[0.12em] text-stone-muted">
               Engineers &amp; Contractors · Since {site.established}

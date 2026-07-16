@@ -1,7 +1,8 @@
 import { site } from "@/lib/site";
 import RippleButton from "@/components/ui/RippleButton";
-import MediaPlaceholder from "@/components/ui/MediaPlaceholder";
 import Reveal from "@/components/motion/Reveal";
+import ImageReveal from "@/components/motion/ImageReveal";
+import HeroVideo from "@/components/motion/HeroVideo";
 
 /** §1 Hero (bone) — editorial headline + warm video loop + CTAs */
 export default function Hero() {
@@ -20,10 +21,10 @@ export default function Hero() {
           Aluminium · Glazing · Furniture · Interiors — {site.address.city}
         </p>
 
-        <h1 className="mt-8 max-w-[15ch] font-display text-display-xl font-medium">
-          Built for L&amp;T. Built for{" "}
+        <h1 className="mt-8 max-w-[15ch] font-display text-display-xl font-bold">
+          One contractor. Four crafts.{" "}
           <span className="italic underline decoration-ember decoration-2 underline-offset-8">
-            your home
+            No excuses
           </span>
           .
         </h1>
@@ -31,8 +32,8 @@ export default function Hero() {
         <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <p className="max-w-[48ch] text-lg text-text-muted">
             Aluminium windows, glass façades, furniture and interior work — the
-            same engineer-led team trusted by Saint-Gobain and Zydus, working
-            across {site.address.city} for 25 years.
+            same engineer-led team trusted by L&amp;T, Saint-Gobain and Zydus,
+            working across {site.address.city} for 25 years.
           </p>
           <div className="flex shrink-0 flex-col gap-4 sm:flex-row">
             <RippleButton href={site.whatsapp.href} external>
@@ -49,13 +50,12 @@ export default function Hero() {
         </p>
       </Reveal>
 
-      {/* Hero media — video loop slot (V1 warm interior sweep) */}
-      <Reveal delay={0.15} className="mt-14 md:mt-20">
-        <MediaPlaceholder
-          label="Hero video loop — V1 warm interior sweep · 16:9 · ≤3MB WebM+MP4 · muted loop + poster"
-          aspect="aspect-[16/9] md:aspect-[21/9]"
-        />
-      </Reveal>
+      {/* Hero media — V1 zoom-out reveal clip, muted/looping, poster fallback
+          for reduced-motion users (HeroVideo bails client-side, never
+          downloads the video in that case) */}
+      <ImageReveal parallax className="mt-14 rounded-card md:mt-20">
+        <HeroVideo className="aspect-video w-full object-cover md:aspect-21/9" />
+      </ImageReveal>
     </section>
   );
 }
