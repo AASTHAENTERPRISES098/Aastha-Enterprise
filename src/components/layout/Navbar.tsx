@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { site } from "@/lib/site";
 
@@ -16,12 +17,23 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-hairline-light bg-bone/90 backdrop-blur-sm">
       <div className="mx-auto flex h-16 w-full max-w-site items-center justify-between px-6 md:px-16">
-        <Link href="/" className="flex items-baseline gap-2">
-          <span className="font-display text-xl font-bold">
-            Aastha<span className="text-ember">.</span>
-          </span>
-          <span className="hidden font-mono text-[0.65rem] uppercase tracking-[0.12em] text-text-muted sm:inline">
-            Engineers &amp; Contractors
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image
+            src="/logo-mark.png"
+            alt=""
+            aria-hidden
+            width={160}
+            height={150}
+            priority
+            className="h-8 w-auto"
+          />
+          <span className="flex items-baseline gap-2">
+            <span className="font-display text-xl font-bold">
+              Aastha<span className="text-ember">.</span>
+            </span>
+            <span className="hidden font-mono text-[0.65rem] uppercase tracking-[0.12em] text-text-muted sm:inline">
+              Engineers &amp; Contractors
+            </span>
           </span>
         </Link>
 

@@ -8,6 +8,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+// iOS/Android address-bar show/hide fires a resize mid-scroll; without this,
+// ScrollTrigger recalculates trigger positions on that resize and the page
+// appears to "stick"/jump mid-scroll (classic symptom right around whichever
+// section is in view when the bar collapses, e.g. Services).
+ScrollTrigger.config({ ignoreMobileResize: true });
+
 /**
  * Lenis smooth scroll — desktop pointer devices only (design system §5).
  * Mobile keeps native scroll; reduced-motion users keep native scroll.

@@ -31,30 +31,47 @@ export async function generateMetadata({
 }
 
 /**
- * Spec bullets are the verified `service.short` facts split into a list —
- * nothing invented beyond what's already in site.ts. FAQ answers stay
+ * Spec bullets sourced from Hitesh's company profile PDF and
+ * Aastha-Enterprise-Master-Document.md §2 — nothing invented, but expanded
+ * beyond the original 3-bullet `service.short` split to cover the full
+ * category breadth those documents verify. FAQ answers stay
  * generic/verified until Hitesh reviews per-service detail.
  */
 const SPECS: Record<string, string[]> = {
   "aluminium-windows-doors": [
     "Sliding & openable windows",
-    "Doors & partitions",
+    "Sliding & automatic sliding doors",
+    "Aluminium partitions",
+    "Aluminium kitchen",
+    "ACP (aluminium composite panel) work",
+    "Mosquito-net (roll-up) windows",
+    "Two & three-track windows",
     "Sections & profiles",
   ],
   "structural-glazing-curtain-wall": [
     "Structural glazing",
     "Curtain walls",
-    "Spider glass & façades",
+    "Spider glass & suspended glass systems",
+    "Glass façades",
+    "Glass doors with patch fitting",
+    "DGU windows",
+    "Sound-proof windows",
   ],
   furniture: [
-    "Office furniture & workstations",
+    "Wooden furniture",
+    "Office furniture — reception, conference, cubicles",
+    "Auditorium furniture",
     "Modular kitchens",
-    "Custom interiors",
+    "Industrial & computer furniture",
+    "Furniture contracting & hire",
   ],
   "false-ceiling-interior": [
     "POP & false ceilings",
-    "Blinds",
-    "SS railing & finishing",
+    "Vertical & horizontal blinds",
+    "Curtains",
+    "S.S. railing & fabrication",
+    "FRP roof sheet",
+    "Mini civil work",
   ],
 };
 

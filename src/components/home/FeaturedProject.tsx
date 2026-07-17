@@ -1,11 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
-import MediaPlaceholder from "@/components/ui/MediaPlaceholder";
 import Reveal from "@/components/motion/Reveal";
 
 /**
  * §4 Featured project (charcoal) — real photo framed like a mounted print.
- * ⚠ Content rule: this slot must use a REAL project photo (Hitesh's PDF /
- * WhatsApp pipeline) — never AI imagery. Showcase project 1 of 6.
+ * Showcase project 1 of 6, from Hitesh's company profile PDF.
  */
 export default function FeaturedProject({
   label = "04 — Featured work",
@@ -35,11 +34,15 @@ export default function FeaturedProject({
         </Reveal>
 
         <div className="mt-12 grid gap-12 lg:grid-cols-12 lg:items-end">
-          <Reveal className="lg:col-span-7">
-            <MediaPlaceholder
-              dark
-              label="REAL project photo required — structural glazing, Central Bus Station (Ved Transcube Plaza) · 4:3 · no AI imagery here"
-              aspect="aspect-[4/3]"
+          <Reveal className="border border-bone/40 p-2 lg:col-span-7">
+            <Image
+              src="/images/projects/central-bus-station.jpg"
+              alt="Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara"
+              width={1800}
+              height={1350}
+              sizes="(max-width: 1023px) 100vw, 58vw"
+              priority
+              className="aspect-[4/3] w-full rounded-card object-cover"
             />
           </Reveal>
 

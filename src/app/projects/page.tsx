@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { site } from "@/lib/site";
 import PageHeader from "@/components/ui/PageHeader";
-import MediaPlaceholder from "@/components/ui/MediaPlaceholder";
 import Reveal from "@/components/motion/Reveal";
 import FeaturedProject from "@/components/home/FeaturedProject";
 import CtaBand from "@/components/home/CtaBand";
@@ -13,32 +13,35 @@ export const metadata: Metadata = {
 };
 
 /**
- * ⚠ Content rule (Aastha-Build-Plan.md Phase 2): every tile here needs a
- * REAL photo from Hitesh before launch — never AI imagery on this page.
- * Names/scope below are the verified showcase projects from the master
- * document; nothing invented. Photos, exact years and full project count
- * are pending — this page ships as a named worklist until they arrive.
+ * Real jobsite photos from Hitesh's company profile PDF — never AI imagery
+ * on this page. Names/scope/location verified against
+ * Aastha-Enterprise-Master-Document.md §3. Exact years and full project
+ * count are still pending from Hitesh.
  */
 const PROJECTS = [
   {
     name: "H.J. Doshi Hospital",
-    scope: "Institutional project",
+    scope: "Curtain wall",
     location: "Rajkot, Gujarat",
+    image: "hj-doshi-hospital.jpg",
   },
   {
     name: "Vapi Auditorium",
-    scope: "Spider glazing",
+    scope: "Spider glass fixing",
     location: "Vapi, Gujarat",
+    image: "vapi-auditorium.jpg",
   },
   {
     name: "MEPRO",
-    scope: "Glass partition",
-    location: "Gujarat",
+    scope: "12mm glass partition",
+    location: "Jarod, Gujarat",
+    image: "mepro.jpg",
   },
   {
-    name: "GFSU Training Centre",
+    name: "GFSU, Gandhinagar",
     scope: "Curtain wall",
     location: "Gandhinagar, Gujarat",
+    image: "gfsu-gandhinagar.jpg",
   },
 ];
 
@@ -55,8 +58,7 @@ export default function ProjectsPage() {
           delay={0.1}
           className="mt-6 max-w-[52ch] text-sm text-text-muted"
         >
-          Real project photography is being added as each job is confirmed —
-          every image here will be from an actual Aastha Enterprise site,
+          Every photo below is from an actual Aastha Enterprise jobsite —
           never AI-generated.
         </Reveal>
       </div>
@@ -71,10 +73,16 @@ export default function ProjectsPage() {
       >
         {PROJECTS.map((project) => (
           <div key={project.name}>
-            <MediaPlaceholder
-              label="Real project photo pending — no AI imagery here"
-              aspect="aspect-[4/3]"
-            />
+            <div className="overflow-hidden rounded-card">
+              <Image
+                src={`/images/projects/${project.image}`}
+                alt={`${project.name} — ${project.scope}, ${project.location}`}
+                width={1600}
+                height={1200}
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                className="aspect-[4/3] w-full object-cover"
+              />
+            </div>
             <p className="mt-5 font-display text-lg font-bold leading-tight">
               {project.name}
             </p>
