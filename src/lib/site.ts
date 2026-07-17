@@ -14,7 +14,7 @@ export const site = {
    * Used by metadataBase, sitemap.xml, robots.txt and JSON-LD @id.
    * Swap once, everything follows.
    */
-  url: "https://aasthaenterprise.pages.dev",
+  url: "https://aastha-enterprise.pages.dev",
   tagline: "Twenty-five years of building trust.",
   established: 2000,
   owner: "Hitesh Panchal",
