@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { site } from "@/lib/site";
 import PageHeader from "@/components/ui/PageHeader";
 import Reveal from "@/components/motion/Reveal";
-import StatementBand from "@/components/shared/StatementBand";
 import CtaBand from "@/components/home/CtaBand";
 
 export const metadata: Metadata = {
@@ -90,8 +89,6 @@ export default function ClientsPage() {
           </Reveal>
         </div>
       </section>
-
-      <StatementBand line="Names, not logos — exactly as we worked for them." />
 
       <CtaBand label="03 — Start a conversation" />
     </main>

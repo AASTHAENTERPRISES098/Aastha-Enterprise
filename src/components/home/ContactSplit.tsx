@@ -70,14 +70,21 @@ export default function ContactSplit() {
           <div className="mt-10 border border-bone/40 p-2">
             <iframe
               title={`${site.name} on Google Maps`}
-              src={`https://www.google.com/maps?q=${encodeURIComponent(
-                `${site.name}, ${site.address.full}`
-              )}&output=embed`}
+              src={site.maps.embedSrc}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
               className="aspect-[4/3] w-full rounded-card border-0 md:aspect-video"
             />
           </div>
+          <a
+            href={site.maps.shareUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-sm font-medium underline decoration-ember decoration-2 underline-offset-4 transition-colors hover:text-ember"
+          >
+            Open in Google Maps →
+          </a>
         </Reveal>
       </div>
     </section>
