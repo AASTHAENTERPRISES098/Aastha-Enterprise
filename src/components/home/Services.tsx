@@ -19,7 +19,7 @@ export default function Services() {
           .
         </h2>
         <p className="mt-5 max-w-[52ch] text-lg text-text-muted">
-          From a single window to a full factory façade — one contractor, one
+          From a single window to a full factory facade — one contractor, one
           bill, one point of responsibility.
         </p>
       </Reveal>

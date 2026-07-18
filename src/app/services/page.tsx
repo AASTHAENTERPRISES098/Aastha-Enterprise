@@ -23,7 +23,7 @@ export default function ServicesPage() {
           label="02 — What we do"
           title="Four crafts,"
           emphasis="one standard"
-          lead="From a single window to a full factory façade — one contractor, one bill, one point of responsibility."
+          lead="From a single window to a full factory facade — one contractor, one bill, one point of responsibility."
         />
       </div>
 

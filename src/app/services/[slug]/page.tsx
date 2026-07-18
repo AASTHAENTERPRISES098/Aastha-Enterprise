@@ -57,7 +57,7 @@ const SPECS: Record<string, string[]> = {
     "Structural glazing",
     "Curtain walls",
     "Spider glass & suspended glass systems",
-    "Glass façades",
+    "Glass facades",
     "Glass doors with patch fitting",
     "DGU windows",
     "Sound-proof windows",

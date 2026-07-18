@@ -82,7 +82,7 @@ export const site = {
     {
       slug: "structural-glazing-curtain-wall",
       title: "Structural Glazing & Curtain Wall",
-      short: "Structural glazing, curtain walls, spider glass and façades.",
+      short: "Structural glazing, curtain walls, spider glass and facades.",
       keyword: "structural glazing vadodara",
     },
     {

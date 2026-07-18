@@ -25,7 +25,7 @@ const SECTORS = [
   },
   {
     name: "Real Estate",
-    line: "Windows, doors and façade glazing for residential and commercial developments across Gujarat.",
+    line: "Windows, doors and facade glazing for residential and commercial developments across Gujarat.",
   },
   {
     name: "Healthcare",
