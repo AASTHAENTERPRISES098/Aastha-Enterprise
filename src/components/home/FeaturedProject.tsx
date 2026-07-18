@@ -36,7 +36,7 @@ export default function FeaturedProject({
         <div className="mt-12 grid gap-12 lg:grid-cols-12 lg:items-end">
           <Reveal className="border border-bone/40 p-2 lg:col-span-7">
             <Image
-              src="/images/projects/central-bus-station.jpg"
+              src="/images/projects/central-bus-station.webp"
               alt="Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara"
               width={1800}
               height={1350}

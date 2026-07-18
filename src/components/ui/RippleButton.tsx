@@ -36,7 +36,8 @@ export default function RippleButton({
   };
 
   const variants = {
-    primary: "bg-ember text-bone hover:bg-ember-hover",
+    // Pure white (not bone) on ember: 4.57:1, passes WCAG AA — bone was 4.23
+    primary: "bg-ember text-white hover:bg-ember-hover",
     outline: "border border-charcoal text-charcoal hover:bg-stone",
     "outline-dark": "border border-bone/40 text-bone hover:border-bone",
   };

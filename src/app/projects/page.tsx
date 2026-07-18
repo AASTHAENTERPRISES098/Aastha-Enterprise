@@ -24,25 +24,25 @@ const PROJECTS = [
     name: "H.J. Doshi Hospital",
     scope: "Curtain wall",
     location: "Rajkot, Gujarat",
-    image: "hj-doshi-hospital.jpg",
+    image: "hj-doshi-hospital.webp",
   },
   {
     name: "Vapi Auditorium",
     scope: "Spider glass fixing",
     location: "Vapi, Gujarat",
-    image: "vapi-auditorium.jpg",
+    image: "vapi-auditorium.webp",
   },
   {
     name: "MEPRO",
     scope: "12mm glass partition",
     location: "Jarod, Gujarat",
-    image: "mepro.jpg",
+    image: "mepro.webp",
   },
   {
     name: "GFSU, Gandhinagar",
     scope: "Curtain wall",
     location: "Gandhinagar, Gujarat",
-    image: "gfsu-gandhinagar.jpg",
+    image: "gfsu-gandhinagar.webp",
   },
 ];
 
