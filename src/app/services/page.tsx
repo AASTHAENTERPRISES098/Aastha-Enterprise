@@ -9,6 +9,7 @@ import TrustStrip from "@/components/home/TrustStrip";
 import CtaBand from "@/components/home/CtaBand";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/" },
   title: `Aluminium, Glazing, Furniture & Interior Services in ${site.address.city} | ${site.name}`,
   description:
     "Aluminium windows & doors, structural glazing & curtain walls, wooden & modular furniture, false ceiling & interior work — one contractor in Vadodara.",

@@ -5,6 +5,7 @@ import Reveal from "@/components/motion/Reveal";
 import CtaBand from "@/components/home/CtaBand";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/clients/" },
   title: `Our Clients in Vadodara & Gujarat | ${site.name}`,
   description: `${site.metrics.clientCount} institutional clients across pharma, construction, finance and real estate — listed as names, not logos.`,
 };

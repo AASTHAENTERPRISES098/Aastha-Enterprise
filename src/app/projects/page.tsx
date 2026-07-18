@@ -7,6 +7,7 @@ import FeaturedProject from "@/components/home/FeaturedProject";
 import CtaBand from "@/components/home/CtaBand";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/projects/" },
   title: `Our Projects in Gujarat | ${site.name}`,
   description:
     "Structural glazing, aluminium and interior work delivered for institutional and residential clients across Gujarat.",

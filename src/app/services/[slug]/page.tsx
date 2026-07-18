@@ -8,7 +8,11 @@ import Reveal from "@/components/motion/Reveal";
 import ImageReveal from "@/components/motion/ImageReveal";
 import RelatedServices from "@/components/shared/RelatedServices";
 import CtaBand from "@/components/home/CtaBand";
-import { ServiceJsonLd } from "@/components/seo/JsonLd";
+import {
+  ServiceJsonLd,
+  BreadcrumbJsonLd,
+  FaqJsonLd,
+} from "@/components/seo/JsonLd";
 
 export const dynamicParams = false;
 
@@ -27,6 +31,7 @@ export async function generateMetadata({
   return {
     title: `${service.title} in ${site.address.city} | ${site.name}`,
     description: `${service.short} Trusted by L&T, Saint-Gobain and Zydus — engineer-led, GST-billed work in ${site.address.city}.`,
+    alternates: { canonical: `/services/${service.slug}/` },
   };
 }
 
@@ -104,6 +109,13 @@ export default async function ServiceDetailPage({
         description={service.short}
         slug={service.slug}
       />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Services", path: "/services/" },
+          { name: service.title, path: `/services/${service.slug}/` },
+        ]}
+      />
+      <FaqJsonLd faqs={FAQS} />
       <div className="mx-auto w-full max-w-site px-6 pt-20 md:px-16 md:pt-28">
         <p className="font-mono text-label font-medium uppercase text-text-muted">
           <Link href="/services" className="hover:text-ember">

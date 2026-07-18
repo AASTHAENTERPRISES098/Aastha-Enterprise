@@ -9,6 +9,7 @@ import Metrics from "@/components/home/Metrics";
 import CtaBand from "@/components/home/CtaBand";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about/" },
   title: `About Us — Aluminium & Glazing Contractor in ${site.address.city} | ${site.name}`,
   description:
     "Aastha Enterprise is a civil-engineer-led aluminium, glazing, furniture and interior contractor in Vadodara, founded in 2000.",

@@ -52,6 +52,9 @@ export const site = {
     /** Official place embed for <iframe src> */
     embedSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1022367814876!2d73.19722589999999!3d22.311972899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ddc1f7eadd%3A0x658231a5e080934b!2sAastha%20Enterprise!5e0!3m2!1sen!2sin!4v1784271281893!5m2!1sen!2sin",
+    /** GBP pin coordinates — for LocalBusiness geo schema */
+    lat: 22.3119729,
+    lng: 73.1972259,
   },
 
   hours: {
