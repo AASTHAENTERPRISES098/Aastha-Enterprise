@@ -45,7 +45,7 @@ export default function Footer() {
             · {site.hours.display}
           </p>
           <p>
-            © {new Date().getFullYear()} {site.name} · GST {site.gst}
+            © {new Date().getFullYear()} {site.name}
           </p>
         </div>
       </div>

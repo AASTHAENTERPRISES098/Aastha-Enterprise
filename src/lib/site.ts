@@ -18,6 +18,7 @@ export const site = {
   tagline: "Twenty-five years of building trust.",
   established: 2000,
   owner: "Hitesh Panchal",
+  /** Kept for records/invoices — not rendered anywhere (client request, 20 Jul 2026) */
   gst: "24ALWPP2857P1Z1",
 
   phone: {

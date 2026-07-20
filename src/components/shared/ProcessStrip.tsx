@@ -8,7 +8,7 @@ import Reveal from "@/components/motion/Reveal";
 const DEFAULT_STEPS = [
   "Enquiry",
   "Free site visit & measurement",
-  "Written GST quotation",
+  "Written quotation",
   "In-house fabrication",
   "Installation & handover",
 ];

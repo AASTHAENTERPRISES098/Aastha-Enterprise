@@ -10,8 +10,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title:
-    "Aastha Enterprise — Aluminium, Glazing, Furniture & Interior Contractors, Vadodara",
+  // ≤65 chars so Google doesn't truncate it (audit item, was 89)
+  title: "Aluminium & Glazing Contractor in Vadodara | Aastha Enterprise",
   description:
     "25 years of aluminium sections, structural glazing, furniture and interior work in Vadodara, Gujarat. Trusted by L&T, Saint-Gobain, Zydus and 25+ more clients.",
   manifest: "/site.webmanifest",

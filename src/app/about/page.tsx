@@ -26,7 +26,7 @@ const VALUES = [
   },
   {
     title: "Paperwork done right",
-    body: `GST-billed invoicing on every job (${site.gst}) — no cash-only shortcuts.`,
+    body: "Every job starts with a written quotation and ends with proper documentation — no cash-only shortcuts.",
   },
 ];
 
@@ -64,6 +64,13 @@ export default function AboutPage() {
                 the final fix in {site.address.city}, {site.address.state}.
               </p>
             </Reveal>
+            <Reveal delay={0.15} className="mt-10 border-l-2 border-ember pl-5">
+              <p className="font-display text-lg font-bold">{site.owner}</p>
+              <p className="mt-1 text-sm text-text-muted">
+                Founder &amp; proprietor — leading {site.name} since{" "}
+                {site.established}.
+              </p>
+            </Reveal>
             <Reveal
               delay={0.2}
               className="mt-10 font-mono text-[0.7rem] font-medium uppercase tracking-[0.12em] text-text-muted"
@@ -79,6 +86,7 @@ export default function AboutPage() {
               width={1000}
               height={1250}
               sizes="(max-width: 1023px) 100vw, 40vw"
+              priority
               className="aspect-[4/5] w-full object-cover"
             />
           </ImageReveal>

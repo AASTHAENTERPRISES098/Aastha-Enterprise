@@ -22,8 +22,8 @@ const FAQS = [
     a: `Both. The same engineer-led team handles institutional clients and homes across ${site.address.city}.`,
   },
   {
-    q: "Do you provide a GST bill?",
-    a: `Yes, every job is GST-billed (${site.gst}) — no cash-only work.`,
+    q: "Do you give a written quotation?",
+    a: "Yes — after the free site visit and measurement, we send a clear written quotation. No obligation, no cash-only work.",
   },
 ];
 

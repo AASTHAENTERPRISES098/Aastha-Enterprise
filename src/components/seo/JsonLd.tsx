@@ -17,6 +17,7 @@ export function LocalBusinessJsonLd() {
     telephone: site.phone.e164,
     email: site.email,
     foundingDate: String(site.established),
+    founder: { "@type": "Person", name: site.owner },
     address: {
       "@type": "PostalAddress",
       streetAddress: `${site.address.line1}, ${site.address.line2}`,

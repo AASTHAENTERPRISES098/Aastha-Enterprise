@@ -5,6 +5,7 @@ import PageHeader from "@/components/ui/PageHeader";
 import Reveal from "@/components/motion/Reveal";
 import FeaturedProject from "@/components/home/FeaturedProject";
 import CtaBand from "@/components/home/CtaBand";
+import { showcaseProjects } from "@/lib/projects";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/projects/" },
@@ -14,37 +15,17 @@ export const metadata: Metadata = {
 };
 
 /**
- * Real jobsite photos from Hitesh's company profile PDF — never AI imagery
- * on this page. Names/scope/location verified against
- * Aastha-Enterprise-Master-Document.md §3. Exact years and full project
- * count are still pending from Hitesh.
+ * Grid lists everything after the featured slot — data lives in
+ * src/lib/projects.ts (real jobsite photos only, never AI imagery;
+ * facts verified against Aastha-Enterprise-Master-Document.md §3).
+ * Exact years and full project count are still pending from Hitesh.
  */
-const PROJECTS = [
-  {
-    name: "H.J. Doshi Hospital",
-    scope: "Curtain wall",
-    location: "Rajkot, Gujarat",
-    image: "hj-doshi-hospital.webp",
-  },
-  {
-    name: "Vapi Auditorium",
-    scope: "Spider glass fixing",
-    location: "Vapi, Gujarat",
-    image: "vapi-auditorium.webp",
-  },
-  {
-    name: "MEPRO",
-    scope: "12mm glass partition",
-    location: "Jarod, Gujarat",
-    image: "mepro.webp",
-  },
-  {
-    name: "GFSU, Gandhinagar",
-    scope: "Curtain wall",
-    location: "Gandhinagar, Gujarat",
-    image: "gfsu-gandhinagar.webp",
-  },
-];
+const PROJECTS = showcaseProjects.slice(1).map((p) => ({
+  name: [p.name, p.emphasis].filter(Boolean).join(" "),
+  scope: p.scope,
+  location: p.location,
+  image: p.image,
+}));
 
 export default function ProjectsPage() {
   return (

@@ -138,3 +138,28 @@ body {
     color: var(--color-bone);
   }
 }
+
+/* Featured-work showcase — content swap on step change */
+@keyframes step-fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+.animate-step {
+  animation: step-fade 0.45s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-step {
+    animation: none;
+  }
+}
+
+/* Decorative ghost numerals — drawn via ::after so contrast checkers
+   (which only evaluate real text nodes) skip this intentionally
+   near-invisible ornament. */
+.ghost-numeral::after {
+  content: attr(data-numeral);
+}

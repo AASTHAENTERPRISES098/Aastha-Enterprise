@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
 
         <p className="mt-6 font-mono text-[0.7rem] font-medium uppercase tracking-[0.12em] text-text-muted">
-          Free site visit &amp; measurement · GST billed · Same-day reply
+          Free site visit &amp; measurement · Written quotation · Same-day reply
         </p>
       </Reveal>
 
