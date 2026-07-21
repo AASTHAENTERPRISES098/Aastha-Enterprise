@@ -6,16 +6,16 @@ Four crafts under one contractor: aluminium windows & doors, structural glazing 
 
 ## Pages
 
-- [Home](https://aastha-enterprise.pages.dev/): Overview, featured projects, enquiry form
-- [About](https://aastha-enterprise.pages.dev/about/): Company story, founder, how we work
-- [Services](https://aastha-enterprise.pages.dev/services/): All four service lines
-- [Aluminium Windows & Doors](https://aastha-enterprise.pages.dev/services/aluminium-windows-doors/): Sliding/openable windows, doors, partitions, ACP work
-- [Structural Glazing & Curtain Wall](https://aastha-enterprise.pages.dev/services/structural-glazing-curtain-wall/): Glazing, curtain walls, spider glass, facades
-- [Wooden & Modular Furniture](https://aastha-enterprise.pages.dev/services/furniture/): Office furniture, workstations, modular kitchens
-- [False Ceiling & Interior Work](https://aastha-enterprise.pages.dev/services/false-ceiling-interior/): POP, false ceilings, blinds, S.S. railing
-- [Projects](https://aastha-enterprise.pages.dev/projects/): Real jobsite photos — Central Bus Station (Ved Transcube Plaza), H.J. Doshi Hospital, Vapi Auditorium, MEPRO, GFSU Gandhinagar
-- [Clients](https://aastha-enterprise.pages.dev/clients/): 28 institutional clients across pharma, construction, finance and real estate
-- [Contact](https://aastha-enterprise.pages.dev/contact/): Enquiry form, map, FAQs
+- [Home](https://aastha-enterprise.com/): Overview, featured projects, enquiry form
+- [About](https://aastha-enterprise.com/about/): Company story, founder, how we work
+- [Services](https://aastha-enterprise.com/services/): All four service lines
+- [Aluminium Windows & Doors](https://aastha-enterprise.com/services/aluminium-windows-doors/): Sliding/openable windows, doors, partitions, ACP work
+- [Structural Glazing & Curtain Wall](https://aastha-enterprise.com/services/structural-glazing-curtain-wall/): Glazing, curtain walls, spider glass, facades
+- [Wooden & Modular Furniture](https://aastha-enterprise.com/services/furniture/): Office furniture, workstations, modular kitchens
+- [False Ceiling & Interior Work](https://aastha-enterprise.com/services/false-ceiling-interior/): POP, false ceilings, blinds, S.S. railing
+- [Projects](https://aastha-enterprise.com/projects/): Real jobsite photos — Central Bus Station (Ved Transcube Plaza), H.J. Doshi Hospital, Vapi Auditorium, MEPRO, GFSU Gandhinagar
+- [Clients](https://aastha-enterprise.com/clients/): 28 institutional clients across pharma, construction, finance and real estate
+- [Contact](https://aastha-enterprise.com/contact/): Enquiry form, map, FAQs
 
 ## Contact
 

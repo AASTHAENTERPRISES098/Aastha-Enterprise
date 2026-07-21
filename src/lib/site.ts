@@ -10,11 +10,10 @@ export const site = {
   descriptor: "Engineers & Contractors",
 
   /**
-   * ⚠ PLACEHOLDER — final domain not registered yet (Phase 4, client's name).
    * Used by metadataBase, sitemap.xml, robots.txt and JSON-LD @id.
-   * Swap once, everything follows.
+   * Registered 21 Jul 2026, DNS pointed at Cloudflare Pages same day.
    */
-  url: "https://aastha-enterprise.pages.dev",
+  url: "https://aastha-enterprise.com",
   tagline: "Twenty-five years of building trust.",
   established: 2000,
   owner: "Hitesh Panchal",

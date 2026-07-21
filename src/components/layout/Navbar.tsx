@@ -22,10 +22,10 @@ export default function Navbar() {
             src="/logo-mark.png"
             alt=""
             aria-hidden
-            width={160}
-            height={150}
+            width={2000}
+            height={2000}
             priority
-            className="h-8 w-auto"
+            className="h-9 w-9"
           />
           <span className="flex items-baseline gap-2">
             <span className="font-display text-xl font-bold">

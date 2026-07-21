@@ -13,6 +13,7 @@ export function LocalBusinessJsonLd() {
     name: site.name,
     description: `Aluminium windows & doors, structural glazing, furniture and interior contractors in ${site.address.city} since ${site.established}.`,
     url: site.url,
+    logo: `${site.url}/logo-mark.png`,
     image: `${site.url}/images/og-image.png`,
     telephone: site.phone.e164,
     email: site.email,
