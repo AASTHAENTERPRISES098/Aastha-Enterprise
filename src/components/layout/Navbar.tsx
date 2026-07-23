@@ -20,8 +20,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2.5">
           <Image
             src="/logo-mark.png"
-            alt=""
-            aria-hidden
+            alt="Aastha Enterprise"
             width={2000}
             height={2000}
             priority
