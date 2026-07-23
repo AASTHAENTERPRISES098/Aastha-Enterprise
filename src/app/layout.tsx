@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { site } from "@/lib/site";
 import { libreCaslonText, pontanoSans, plexMono } from "@/lib/fonts";
 import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
@@ -39,6 +40,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  verification: {
+    google: "48L0CnqXuSuHGJglET05qLxBSlTVrLYCHPcg943tvP4",
+    other: {
+      "msvalidate.01": "83A44D20A3FDB9A85ABEA2EFAB30566F",
+    },
+  },
 };
 
 export const viewport: Viewport = {
@@ -57,6 +64,18 @@ export default function RootLayout({
       className={`${libreCaslonText.variable} ${pontanoSans.variable} ${plexMono.variable} h-full`}
     >
       <body className="flex min-h-full flex-col pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HL8QQQMH1E"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HL8QQQMH1E');
+          `}
+        </Script>
         <LocalBusinessJsonLd />
         <SmoothScroll>
           <Navbar />
