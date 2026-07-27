@@ -80,7 +80,6 @@ export default function FeaturedProject({
                 width={1800}
                 height={1350}
                 sizes="(max-width: 1023px) 100vw, 58vw"
-                priority={index === 0}
                 className="aspect-[4/3] w-full rounded-card object-cover"
               />
             </div>
