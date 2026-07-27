@@ -47,7 +47,7 @@ export default function ServicesPage() {
             </div>
             <div className="w-full shrink-0 overflow-hidden rounded-card sm:w-32">
               <Image
-                src={`/images/services/${service.slug}.webp`}
+                src={service.imageUrl}
                 alt={service.title}
                 width={300}
                 height={300}

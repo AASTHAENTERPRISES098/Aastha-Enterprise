@@ -1,8 +1,11 @@
 /**
- * Showcase projects — real jobsite photos from Hitesh's company profile PDF,
- * facts verified against Aastha-Enterprise-Master-Document.md §3.
- * GFSU Training Centre (project 6) joins once its photo arrives from Hitesh.
+ * Showcase projects — real jobsite photos, managed in Sanity by Hitesh.
+ * Data is fetched at build time into content.generated.json (see
+ * scripts/fetch-content.mjs). Only projects marked "Show on site" appear here,
+ * ordered by the CMS "Display order" field.
  */
+import content from "./content.generated.json";
+
 export type ShowcaseProject = {
   /** Upright part of the display name */
   name: string;
@@ -11,54 +14,19 @@ export type ShowcaseProject = {
   scope: string;
   location: string;
   type: string;
-  /** Filename inside /images/projects/ */
-  image: string;
+  /** Sanity CDN URL (already sized + auto-format) */
+  imageUrl: string;
   alt: string;
 };
 
-export const showcaseProjects: ShowcaseProject[] = [
-  {
-    name: "Central Bus Station,",
-    emphasis: "Ved Transcube Plaza",
-    scope: "Structural glazing",
-    location: "Vadodara, Gujarat",
-    type: "Public infrastructure",
-    image: "central-bus-station.webp",
-    alt: "Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara",
-  },
-  {
-    name: "H.J. Doshi",
-    emphasis: "Hospital",
-    scope: "Curtain wall",
-    location: "Rajkot, Gujarat",
-    type: "Healthcare",
-    image: "hj-doshi-hospital.webp",
-    alt: "Curtain wall at H.J. Doshi Hospital, Rajkot",
-  },
-  {
-    name: "Vapi",
-    emphasis: "Auditorium",
-    scope: "Spider glass fixing",
-    location: "Vapi, Gujarat",
-    type: "Public auditorium",
-    image: "vapi-auditorium.webp",
-    alt: "Spider glass facade at Vapi Auditorium",
-  },
-  {
-    name: "MEPRO",
-    scope: "12mm glass partition",
-    location: "Jarod, Gujarat",
-    type: "Commercial facility",
-    image: "mepro.webp",
-    alt: "12mm glass partition work at MEPRO, Jarod",
-  },
-  {
-    name: "GFSU,",
-    emphasis: "Gandhinagar",
-    scope: "Curtain wall",
-    location: "Gandhinagar, Gujarat",
-    type: "University campus",
-    image: "gfsu-gandhinagar.webp",
-    alt: "Curtain wall at GFSU campus, Gandhinagar",
-  },
-];
+export const showcaseProjects: ShowcaseProject[] = content.projects.map(
+  (p) => ({
+    name: p.name,
+    emphasis: p.emphasis || undefined,
+    scope: p.scope,
+    location: p.location,
+    type: p.type,
+    imageUrl: p.imageUrl,
+    alt: p.alt,
+  })
+);

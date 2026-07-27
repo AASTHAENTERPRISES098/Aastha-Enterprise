@@ -1,0 +1,329 @@
+{
+  "clients": [
+    {
+      "featured": true,
+      "name": "L&T Hydrocarbon Engineering"
+    },
+    {
+      "featured": true,
+      "name": "Saint-Gobain India"
+    },
+    {
+      "featured": true,
+      "name": "Zydus Cadila"
+    },
+    {
+      "featured": true,
+      "name": "Lupin Pharmaceuticals"
+    },
+    {
+      "featured": true,
+      "name": "Grasim Industries"
+    },
+    {
+      "featured": true,
+      "name": "Alembic Real Estate"
+    },
+    {
+      "featured": true,
+      "name": "Motilal Oswal"
+    },
+    {
+      "featured": true,
+      "name": "India Infoline"
+    },
+    {
+      "featured": true,
+      "name": "JP Iscon"
+    },
+    {
+      "featured": false,
+      "name": "Safal Group"
+    },
+    {
+      "featured": false,
+      "name": "Arvind & Smart Value Homes"
+    },
+    {
+      "featured": true,
+      "name": "Glenmark"
+    },
+    {
+      "featured": false,
+      "name": "Deepak Phenolics"
+    },
+    {
+      "featured": false,
+      "name": "Aikya Chemical"
+    },
+    {
+      "featured": false,
+      "name": "AFC Elastomers"
+    },
+    {
+      "featured": false,
+      "name": "Cube Construction Engineering"
+    },
+    {
+      "featured": false,
+      "name": "Katira Construction"
+    },
+    {
+      "featured": false,
+      "name": "Rohan Builders"
+    },
+    {
+      "featured": false,
+      "name": "Sharad Constructions"
+    },
+    {
+      "featured": false,
+      "name": "Manglam Construction"
+    },
+    {
+      "featured": false,
+      "name": "National Builders Infrastructure"
+    },
+    {
+      "featured": false,
+      "name": "Dipesh Construction"
+    },
+    {
+      "featured": false,
+      "name": "Stem Cell Hospital, Surat"
+    },
+    {
+      "featured": false,
+      "name": "T.B. Hospital, Gotri"
+    },
+    {
+      "featured": false,
+      "name": "Stone Sapphire"
+    },
+    {
+      "featured": false,
+      "name": "Nirmal Bang"
+    },
+    {
+      "featured": false,
+      "name": "Applewoods Estate"
+    },
+    {
+      "featured": false,
+      "name": "APMC Bharuch"
+    }
+  ],
+  "projects": [
+    {
+      "alt": "Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara",
+      "emphasis": "Ved Transcube Plaza",
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/fa11f265870b32d2858c7c107420b9ef86c34896-1800x1334.webp?w=1800&q=75&auto=format",
+      "location": "Vadodara, Gujarat",
+      "name": "Central Bus Station,",
+      "scope": "Structural glazing",
+      "type": "Public infrastructure"
+    },
+    {
+      "alt": "Curtain wall at H.J. Doshi Hospital, Rajkot",
+      "emphasis": "Hospital",
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/1793fac69f3efba1f5045aad22da5dc58f644fb4-1304x990.webp?w=1800&q=75&auto=format",
+      "location": "Rajkot, Gujarat",
+      "name": "H.J. Doshi",
+      "scope": "Curtain wall",
+      "type": "Healthcare"
+    },
+    {
+      "alt": "Spider glass facade at Vapi Auditorium",
+      "emphasis": "Auditorium",
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/a4ca7502e99107cf1048bfc32a68c52ec3cbc54a-1300x892.webp?w=1800&q=75&auto=format",
+      "location": "Vapi, Gujarat",
+      "name": "Vapi",
+      "scope": "Spider glass fixing",
+      "type": "Public auditorium"
+    },
+    {
+      "alt": "12mm glass partition work at MEPRO, Jarod",
+      "emphasis": null,
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/06b7f8853eee027b5d26d33ed9f6a3fff87cd62f-1328x976.webp?w=1800&q=75&auto=format",
+      "location": "Jarod, Gujarat",
+      "name": "MEPRO",
+      "scope": "12mm glass partition",
+      "type": "Commercial facility"
+    },
+    {
+      "alt": "Curtain wall at GFSU campus, Gandhinagar",
+      "emphasis": "Gandhinagar",
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/84ca904f29af0ced1ba3459d25f0d9f9f5956c13-966x1148.webp?w=1800&q=75&auto=format",
+      "location": "Gandhinagar, Gujarat",
+      "name": "GFSU,",
+      "scope": "Curtain wall",
+      "type": "University campus"
+    }
+  ],
+  "services": [
+    {
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/9af119c1aa9f088c8f04a980e78e788d9cba6aa4-900x1200.webp?w=1200&q=75&auto=format",
+      "intro": "From two-track sliding windows in a Vadodara home to full aluminium partition systems for institutional offices, every frame is fabricated in our own workshop and installed by our own team. Sections, hardware and glass are chosen for the opening and its exposure — not for what is lying in stock.",
+      "keyword": "aluminium windows vadodara",
+      "process": [
+        {
+          "body": "We measure every opening ourselves — plumb, level and brickwork tolerance — because a window is only as good as its measurement. The visit is free.",
+          "step": "Site visit & measurement"
+        },
+        {
+          "body": "We recommend the right aluminium sections, hardware and glass for the opening and your budget, then send a written quotation.",
+          "step": "Section selection & quotation"
+        },
+        {
+          "body": "Frames are cut and assembled in our own Vadodara workshop — the same unit that has served our institutional clients since 2000.",
+          "step": "In-house fabrication"
+        },
+        {
+          "body": "Our own team fits, seals and finishes the work, then walks it with you before handover. After-sales support stays a phone call away.",
+          "step": "Installation & handover"
+        }
+      ],
+      "short": "Sliding and openable windows, doors, sections and partitions.",
+      "slug": "aluminium-windows-doors",
+      "specs": [
+        "Sliding & openable windows",
+        "Sliding & automatic sliding doors",
+        "Aluminium partitions",
+        "Aluminium kitchen",
+        "ACP (aluminium composite panel) work",
+        "Mosquito-net (roll-up) windows",
+        "Two & three-track windows",
+        "Sections & profiles"
+      ],
+      "title": "Aluminium Windows & Doors"
+    },
+    {
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/e5b21a88b3971823c526fe8e6b492bf9b5a24536-900x1200.webp?w=1200&q=75&auto=format",
+      "intro": "Structural glazing is unforgiving work: the facade carries wind load, weather and the building's public face at once. Our engineering team has delivered glazing for public infrastructure, hospitals and university campuses across Gujarat — work that is still standing and still sealed.",
+      "keyword": "structural glazing vadodara",
+      "process": [
+        {
+          "body": "We survey the elevation, substrate and access, and confirm what the structure can carry before anything is promised.",
+          "step": "Site survey & feasibility"
+        },
+        {
+          "body": "Glazing system, glass specification — DGU, toughened, sound-proof — and fixing details are worked out by our engineering team and priced in a written quotation.",
+          "step": "System design & quotation"
+        },
+        {
+          "body": "Frames and fittings are prepared in-house and staged to the project's schedule — we work alongside builders on live sites.",
+          "step": "Fabrication & staging"
+        },
+        {
+          "body": "Our experienced site team installs, seals and checks the facade, and stays accountable after handover.",
+          "step": "Installation & handover"
+        }
+      ],
+      "short": "Structural glazing, curtain walls, spider glass and facades.",
+      "slug": "structural-glazing-curtain-wall",
+      "specs": [
+        "Structural glazing",
+        "Curtain walls",
+        "Spider glass & suspended glass systems",
+        "Glass facades",
+        "Glass doors with patch fitting",
+        "DGU windows",
+        "Sound-proof windows"
+      ],
+      "title": "Structural Glazing & Curtain Wall"
+    },
+    {
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/bec4f8857b47e30a24a172166aa5610af81b723a-900x1200.webp?w=1200&q=75&auto=format",
+      "intro": "From a single conference table to a complete office fit-out — workstations, reception counters, auditorium seating and modular kitchens — we build furniture for daily institutional use, made in the same workshop that serves our contracting clients.",
+      "keyword": "office furniture vadodara",
+      "process": [
+        {
+          "body": "We visit, measure the space and understand how it will be used — workstations, storage, reception, conference or a full office.",
+          "step": "Requirement & measurement"
+        },
+        {
+          "body": "Layouts, materials and finishes are settled with you, then priced in a written quotation.",
+          "step": "Design & quotation"
+        },
+        {
+          "body": "Every piece is built in our own workshop — wooden, modular and industrial furniture from one accountable team.",
+          "step": "In-house fabrication"
+        },
+        {
+          "body": "We deliver, install and level the furniture on site, and support it after handover.",
+          "step": "Delivery & installation"
+        }
+      ],
+      "short": "Office furniture, workstations, modular kitchens and interiors.",
+      "slug": "furniture",
+      "specs": [
+        "Wooden furniture",
+        "Office furniture — reception, conference, cubicles",
+        "Auditorium furniture",
+        "Modular kitchens",
+        "Industrial & computer furniture",
+        "Furniture contracting & hire"
+      ],
+      "title": "Wooden & Modular Furniture"
+    },
+    {
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/8cb457dc7f36d31f970fd06bcf47860315dc160b-900x1200.webp?w=1200&q=75&auto=format",
+      "intro": "Ceilings, blinds, railings and finishing are the last ten percent of a project that decide how finished it feels. We handle POP and false-ceiling work alongside S.S. railing fabrication and mini civil jobs, so one team closes out the site.",
+      "keyword": "false ceiling vadodara",
+      "process": [
+        {
+          "body": "We walk the site with you and agree the exact scope — ceilings, blinds, railing, finishing — before quoting.",
+          "step": "Site visit & scope"
+        },
+        {
+          "body": "One itemised quotation for the full interior scope, so nothing falls between two vendors.",
+          "step": "Written quotation"
+        },
+        {
+          "body": "POP and false-ceiling work, S.S. railing fabrication and mini civil jobs run by our own crews, sequenced around your site.",
+          "step": "Execution"
+        },
+        {
+          "body": "We close out the details — edges, joints, cleanup — and hand over a finished space.",
+          "step": "Finishing & handover"
+        }
+      ],
+      "short": "POP, false ceilings, blinds, SS railing and interior finishing.",
+      "slug": "false-ceiling-interior",
+      "specs": [
+        "POP & false ceilings",
+        "Gypsum board ceilings",
+        "Vertical & horizontal blinds",
+        "Curtains",
+        "S.S. railing & fabrication",
+        "Bathroom doors",
+        "Glass partitions (incl. bathroom / shower)",
+        "FRP roof sheet",
+        "Mini civil work"
+      ],
+      "title": "False Ceiling & Interior Work"
+    }
+  ],
+  "settings": {
+    "addressLine1": "AB-35/38, RBG Commercial Complex",
+    "addressLine2": "Bahucharaji Road, Karelibaug",
+    "businessName": "Aastha Enterprise",
+    "city": "Vadodara",
+    "clientCount": 28,
+    "descriptor": "Engineers & Contractors",
+    "email": "aasthaenterprises098@gmail.com",
+    "established": 2000,
+    "googleRating": 4.8,
+    "hoursClosed": "Sunday closed",
+    "hoursDisplay": "Mon–Sat, 10:00 AM – 6:30 PM",
+    "owner": "Hitesh Panchal",
+    "phoneDisplay": "098253 63015",
+    "phoneE164": "+919825363015",
+    "pincode": "390018",
+    "state": "Gujarat",
+    "tagline": "Twenty-five years of building trust.",
+    "whatsappDisplay": "+91 79840 33895",
+    "whatsappE164": "+917984033895",
+    "yearsOfWork": 25
+  }
+}

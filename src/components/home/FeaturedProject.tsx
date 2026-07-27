@@ -73,9 +73,9 @@ export default function FeaturedProject({
           onTouchEnd={onTouchEnd}
         >
           <Reveal className="border border-bone/40 p-2 lg:col-span-7">
-            <div key={project.image} className={swapClass}>
+            <div key={project.imageUrl} className={swapClass}>
               <Image
-                src={`/images/projects/${project.image}`}
+                src={project.imageUrl}
                 alt={project.alt}
                 width={1800}
                 height={1350}

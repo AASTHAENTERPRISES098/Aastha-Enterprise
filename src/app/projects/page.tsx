@@ -24,7 +24,7 @@ const PROJECTS = showcaseProjects.slice(1).map((p) => ({
   name: [p.name, p.emphasis].filter(Boolean).join(" "),
   scope: p.scope,
   location: p.location,
-  image: p.image,
+  imageUrl: p.imageUrl,
 }));
 
 export default function ProjectsPage() {
@@ -57,7 +57,7 @@ export default function ProjectsPage() {
           <div key={project.name}>
             <div className="overflow-hidden rounded-card">
               <Image
-                src={`/images/projects/${project.image}`}
+                src={project.imageUrl}
                 alt={`${project.name} — ${project.scope}, ${project.location}`}
                 width={1600}
                 height={1200}

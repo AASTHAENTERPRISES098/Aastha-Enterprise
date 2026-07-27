@@ -33,7 +33,7 @@ export default function Services() {
           >
             <div className="overflow-hidden rounded-card">
               <Image
-                src={`/images/services/${service.slug}.webp`}
+                src={service.imageUrl}
                 alt={`${service.title} — ${service.short}`}
                 width={900}
                 height={1200}
