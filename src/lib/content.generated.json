@@ -2,7 +2,7 @@
   "clients": [
     {
       "featured": true,
-      "name": "L&T Hydrocarbon Engineering"
+      "name": "L&T Hydrocarbon Engineering "
     },
     {
       "featured": true,
@@ -14,11 +14,11 @@
     },
     {
       "featured": true,
-      "name": "Lupin Pharmaceuticals"
+      "name": "Lupin Pharmaceuticals-Pithampur M.P."
     },
     {
       "featured": true,
-      "name": "Grasim Industries"
+      "name": "Grasim Industries Ltd"
     },
     {
       "featured": true,
@@ -30,7 +30,7 @@
     },
     {
       "featured": true,
-      "name": "India Infoline"
+      "name": "India Infoline Services Limited"
     },
     {
       "featured": true,
@@ -42,7 +42,7 @@
     },
     {
       "featured": false,
-      "name": "Arvind & Smart Value Homes"
+      "name": "Arvind & Smart Value Homes LLP"
     },
     {
       "featured": true,
@@ -50,7 +50,7 @@
     },
     {
       "featured": false,
-      "name": "Deepak Phenolics"
+      "name": "Deepak Phenolics "
     },
     {
       "featured": false,
@@ -58,15 +58,15 @@
     },
     {
       "featured": false,
-      "name": "AFC Elastomers"
+      "name": "AFC Elastomers "
     },
     {
       "featured": false,
-      "name": "Cube Construction Engineering"
+      "name": "Cube Construction Engineering ltd"
     },
     {
       "featured": false,
-      "name": "Katira Construction"
+      "name": "Katira Construction Ltd"
     },
     {
       "featured": false,
@@ -86,7 +86,7 @@
     },
     {
       "featured": false,
-      "name": "Dipesh Construction"
+      "name": "Dipesh Construction Company "
     },
     {
       "featured": false,
@@ -117,46 +117,56 @@
     {
       "alt": "Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara",
       "emphasis": "Ved Transcube Plaza",
+      "gallery": null,
       "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/fa11f265870b32d2858c7c107420b9ef86c34896-1800x1334.webp?w=1800&q=75&auto=format",
       "location": "Vadodara, Gujarat",
       "name": "Central Bus Station,",
       "scope": "Structural glazing",
+      "slug": null,
       "type": "Public infrastructure"
     },
     {
       "alt": "Curtain wall at H.J. Doshi Hospital, Rajkot",
       "emphasis": "Hospital",
+      "gallery": null,
       "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/1793fac69f3efba1f5045aad22da5dc58f644fb4-1304x990.webp?w=1800&q=75&auto=format",
       "location": "Rajkot, Gujarat",
       "name": "H.J. Doshi",
       "scope": "Curtain wall",
+      "slug": null,
       "type": "Healthcare"
     },
     {
       "alt": "Spider glass facade at Vapi Auditorium",
       "emphasis": "Auditorium",
+      "gallery": null,
       "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/a4ca7502e99107cf1048bfc32a68c52ec3cbc54a-1300x892.webp?w=1800&q=75&auto=format",
       "location": "Vapi, Gujarat",
       "name": "Vapi",
       "scope": "Spider glass fixing",
+      "slug": null,
       "type": "Public auditorium"
     },
     {
       "alt": "12mm glass partition work at MEPRO, Jarod",
       "emphasis": null,
-      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/06b7f8853eee027b5d26d33ed9f6a3fff87cd62f-1328x976.webp?w=1800&q=75&auto=format",
+      "gallery": null,
+      "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/a7e18ffa564822669c4c34a05fa8226accf29918-720x1280.jpg?w=1800&q=75&auto=format",
       "location": "Jarod, Gujarat",
       "name": "MEPRO",
       "scope": "12mm glass partition",
+      "slug": null,
       "type": "Commercial facility"
     },
     {
       "alt": "Curtain wall at GFSU campus, Gandhinagar",
       "emphasis": "Gandhinagar",
+      "gallery": null,
       "imageUrl": "https://cdn.sanity.io/images/ctud63ec/production/84ca904f29af0ced1ba3459d25f0d9f9f5956c13-966x1148.webp?w=1800&q=75&auto=format",
       "location": "Gandhinagar, Gujarat",
       "name": "GFSU,",
       "scope": "Curtain wall",
+      "slug": null,
       "type": "University campus"
     }
   ],
@@ -305,7 +315,7 @@
     }
   ],
   "settings": {
-    "addressLine1": "AB-35/38, RBG Commercial Complex",
+    "addressLine1": "AB-35/38, RBG Commercial Complex ",
     "addressLine2": "Bahucharaji Road, Karelibaug",
     "businessName": "Aastha Enterprise",
     "city": "Vadodara",

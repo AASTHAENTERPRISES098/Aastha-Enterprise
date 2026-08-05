@@ -39,7 +39,12 @@ const query = `{
   },
   "projects": *[_type == "project" && featured == true] | order(order asc){
     name, emphasis, scope, location, type, alt,
-    "imageUrl": image.asset->url + "${IMG_PROJECT}"
+    "slug": slug.current,
+    "imageUrl": image.asset->url + "${IMG_PROJECT}",
+    "gallery": gallery[]{
+      "url": image.asset->url + "${IMG_PROJECT}",
+      alt, caption
+    }
   },
   "clients": *[_type == "client"] | order(order asc){
     name, "featured": featuredOnHomepage

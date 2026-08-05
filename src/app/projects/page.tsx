@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { site } from "@/lib/site";
 import PageHeader from "@/components/ui/PageHeader";
 import Reveal from "@/components/motion/Reveal";
@@ -22,9 +23,12 @@ export const metadata: Metadata = {
  */
 const PROJECTS = showcaseProjects.slice(1).map((p) => ({
   name: [p.name, p.emphasis].filter(Boolean).join(" "),
+  slug: p.slug,
   scope: p.scope,
   location: p.location,
   imageUrl: p.imageUrl,
+  // Cover + extra shots — drives the "N photos" badge and hints there's more.
+  photoCount: 1 + p.gallery.length,
 }));
 
 export default function ProjectsPage() {
@@ -54,24 +58,33 @@ export default function ProjectsPage() {
         className="mx-auto mt-20 grid w-full max-w-site gap-8 px-6 sm:grid-cols-2 lg:grid-cols-3 md:px-16"
       >
         {PROJECTS.map((project) => (
-          <div key={project.name}>
-            <div className="overflow-hidden rounded-card">
+          <Link
+            key={project.name}
+            href={`/projects/${project.slug}`}
+            className="group block"
+          >
+            <div className="relative overflow-hidden rounded-card">
               <Image
                 src={project.imageUrl}
                 alt={`${project.name} — ${project.scope}, ${project.location}`}
                 width={1600}
                 height={1200}
                 sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
-                className="aspect-[4/3] w-full object-cover"
+                className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
               />
+              {project.photoCount > 1 && (
+                <span className="absolute bottom-3 right-3 rounded-full bg-charcoal/80 px-3 py-1 font-mono text-[0.65rem] uppercase tracking-[0.1em] text-bone backdrop-blur">
+                  {project.photoCount} photos
+                </span>
+              )}
             </div>
-            <p className="mt-5 font-display text-lg font-bold leading-tight">
+            <p className="mt-5 font-display text-lg font-bold leading-tight transition-colors group-hover:text-ember">
               {project.name}
             </p>
             <p className="mt-1 font-mono text-[0.7rem] uppercase tracking-[0.1em] text-text-muted">
               {project.scope} · {project.location}
             </p>
-          </div>
+          </Link>
         ))}
       </Reveal>
 
