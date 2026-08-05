@@ -137,12 +137,20 @@ export default function FeaturedProject({
                   →
                 </button>
               </div>
-              <Link
-                href="/projects"
-                className="text-sm font-medium text-bone underline decoration-ember decoration-2 underline-offset-4 transition-colors hover:text-ember"
-              >
-                View all projects
-              </Link>
+              <div className="flex flex-col items-end gap-1">
+                <Link
+                  href={`/projects/${project.slug}`}
+                  className="text-sm font-medium text-bone underline decoration-ember decoration-2 underline-offset-4 transition-colors hover:text-ember"
+                >
+                  View this project →
+                </Link>
+                <Link
+                  href="/projects"
+                  className="font-mono text-label uppercase text-stone-muted transition-colors hover:text-ember"
+                >
+                  All projects
+                </Link>
+              </div>
             </div>
           </Reveal>
         </div>
