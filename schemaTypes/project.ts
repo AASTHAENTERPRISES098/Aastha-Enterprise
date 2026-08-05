@@ -63,7 +63,7 @@ export const project = defineType({
       name: 'gallery',
       title: 'More photos of this site',
       description:
-        'Extra photos shown on the project’s own page — different angles, before/after, detail shots. The cover photo above is shown first automatically, so add the other shots here.',
+        'Extra photos shown on the project’s own page — different angles, before/after, detail shots. The cover photo above is shown first automatically, so DON’T re-add it here. Tips: 3–8 photos works best, landscape (wide) shots look cleanest, and drag the handles to reorder. Click Publish when done — new photos go live in about 15 seconds.',
       type: 'array',
       of: [
         defineField({
