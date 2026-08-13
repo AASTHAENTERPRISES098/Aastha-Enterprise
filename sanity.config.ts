@@ -33,6 +33,7 @@ export default defineConfig({
             S.documentTypeListItem('service').title('Services'),
             S.documentTypeListItem('project').title('Projects'),
             S.documentTypeListItem('client').title('Clients'),
+            S.documentTypeListItem('post').title('Blog'),
           ]),
     }),
     visionTool(),
