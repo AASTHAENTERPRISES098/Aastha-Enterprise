@@ -113,6 +113,1156 @@
       "name": "APMC Bharuch"
     }
   ],
+  "posts": [
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise — aluminium & glazing contractor in Vadodara since 2000",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "p1a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "If you're budgeting a commercial façade in Gujarat, structural glazing typically costs ₹350–₹750 per square foot, supplied and installed, as of 2026. Where a project lands in that range comes down to four things: the glass, the aluminium framing system, the height and access of the site, and the finish. Here's how to read a glazing quotation with confidence."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "What a per-square-foot glazing rate includes"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p1c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "A fair glazing rate is an all-in number. Before comparing two quotes, check that both cover the same scope:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "The glass itself — thickness, type and any coating"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Aluminium framing, gaskets and structural sealant"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Fabrication to your site's measurements"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1g",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Installation, scaffolding and site handling"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1h",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Hardware, fixings and finishing"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1i",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "The four things that move the price"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p1j",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "1. Glass specification"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "p1k",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Plain toughened glass is the baseline. Double-glazed units, reflective or low-E coatings for heat control, and laminated glass for safety each add cost — but can pay back in comfort and lower cooling bills on a sun-facing elevation."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1l",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "2. Framing system"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "p1m",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "A semi-unitised or spider (point-fixed) system costs more than a conventional captured system, but delivers the frameless look many commercial buildings want. The aluminium section and its powder-coat or anodised finish also affect the rate."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1n",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "3. Height and site access"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "p1o",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "A ground-floor shopfront is quick to install. A multi-storey elevation needs scaffolding or access equipment and more labour, which lifts the installed rate even when the glass is identical."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1p",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "4. Finish and detailing"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "p1q",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Corners, curves, opening vents and integrated louvres all add fabrication time. A simple flat run is always the most economical."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1r",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "How to compare two glazing quotes fairly"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p1s",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "The lowest number rarely wins. Put both quotes side by side and confirm they match on glass make and thickness, framing system, and whether installation and scaffolding are included. Ask for the glass brand — reputable float glass makes a real difference to clarity and longevity."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p1t",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s1",
+              "_type": "span",
+              "marks": [],
+              "text": "Every façade is different, so the only accurate number is a site-specific one. See our "
+            },
+            {
+              "_key": "s2",
+              "_type": "span",
+              "marks": [
+                "l1"
+              ],
+              "text": "structural glazing and curtain wall work"
+            },
+            {
+              "_key": "s3",
+              "_type": "span",
+              "marks": [],
+              "text": " or "
+            },
+            {
+              "_key": "s4",
+              "_type": "span",
+              "marks": [
+                "l2"
+              ],
+              "text": "request a measured quotation"
+            },
+            {
+              "_key": "s5",
+              "_type": "span",
+              "marks": [],
+              "text": " — the site visit and written estimate are free."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "l1",
+              "_type": "link",
+              "href": "/services/structural-glazing-curtain-wall/"
+            },
+            {
+              "_key": "l2",
+              "_type": "link",
+              "href": "/contact/"
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "category": "Buyer’s Guide",
+      "coverAlt": "Structural glass façade of the Central Bus Station at Ved Transcube Plaza, Vadodara",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/fa11f265870b32d2858c7c107420b9ef86c34896-1800x1334.webp?w=1600&q=75&auto=format",
+      "excerpt": "In 2026, structural glazing in Gujarat typically runs ₹350–₹750 per sq ft supplied and installed. Here's what drives the price and how to compare glazing quotes fairly.",
+      "faqs": [
+        {
+          "a": "Yes — per square foot, structural glazing costs more than standard aluminium windows because it uses larger glass panes, specialised framing and structural sealant, and needs more careful installation. For a full façade or a frameless look, though, it's usually the right choice.",
+          "q": "Is structural glazing more expensive than ordinary aluminium windows?"
+        },
+        {
+          "a": "At Aastha Enterprise it does — our rate covers fabrication, installation and scaffolding. Always confirm this when comparing quotes, as some suppliers quote supply-only and add installation later.",
+          "q": "Does the quoted rate include installation?"
+        },
+        {
+          "a": "A typical commercial elevation takes a few weeks from final measurement to handover, depending on size, glass lead time and site access. We share a schedule with the quotation.",
+          "q": "How long does a structural glazing project take?"
+        }
+      ],
+      "publishedAt": "2026-08-12T09:00:00.000Z",
+      "slug": "structural-glazing-cost-gujarat",
+      "title": "How much does structural glazing cost in Gujarat? A 2026 price guide",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise — aluminium & glazing contractor in Vadodara since 2000",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "p2a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Structural glazing and curtain walling both give a building a sleek glass skin, but they aren't the same thing. In short: a curtain wall is a complete non-structural outer envelope hung off the building frame, while structural glazing is a glazing technique where the glass is bonded to its frame so little or no metal shows from outside. Here's how to choose."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "What a curtain wall is"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p2c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "A curtain wall is a full external wall system — aluminium framing infilled with glass, and sometimes solid panels — that carries only its own weight and wind load, transferring both back to the floor slabs. It 'hangs' on the structure like a curtain, which is where the name comes from. It's the go-to envelope for multi-storey commercial buildings."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "What structural glazing is"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p2e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Structural glazing describes how the glass meets its frame. Instead of aluminium beads clamping the glass on the outside, the glass is bonded to the frame with high-strength structural silicone. From outside you see an almost unbroken glass surface with slim joint lines — the frameless look."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "How to choose"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p2g",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "The two often work together — many curtain walls are finished with structural glazing for a cleaner face. Use this as a rough guide:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2h",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Choose a curtain wall when you need to clad several floors as one continuous envelope."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2i",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Choose structural (frameless) glazing when appearance is the priority and you want minimal visible metal."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2j",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Choose a captured or semi-unitised system when budget matters more than a perfectly frameless face."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2k",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Which lasts longer?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p2l",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Both last for decades when engineered and installed correctly. Longevity comes down to the quality of the aluminium, the structural sealant and the workmanship — not the label. Proper drainage to manage condensation is what separates a façade that ages well from one that leaks."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p2m",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s1",
+              "_type": "span",
+              "marks": [],
+              "text": "We've delivered both across Gujarat, from hospital curtain walls to auditorium spider glazing. See "
+            },
+            {
+              "_key": "s2",
+              "_type": "span",
+              "marks": [
+                "l1"
+              ],
+              "text": "our glazing work"
+            },
+            {
+              "_key": "s3",
+              "_type": "span",
+              "marks": [],
+              "text": " or "
+            },
+            {
+              "_key": "s4",
+              "_type": "span",
+              "marks": [
+                "l2"
+              ],
+              "text": "tell us about your building"
+            },
+            {
+              "_key": "s5",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "l1",
+              "_type": "link",
+              "href": "/services/structural-glazing-curtain-wall/"
+            },
+            {
+              "_key": "l2",
+              "_type": "link",
+              "href": "/contact/"
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "category": "Glazing & Façades",
+      "coverAlt": "Curtain wall glazing on H.J. Doshi Hospital, Rajkot",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/1793fac69f3efba1f5045aad22da5dc58f644fb4-1304x990.webp?w=1600&q=75&auto=format",
+      "excerpt": "A curtain wall is a complete non-structural glass envelope hung off the building frame; structural glazing is a technique that bonds glass to its frame for a frameless look. Here's how to choose.",
+      "faqs": [
+        {
+          "a": "No. A curtain wall is a complete non-load-bearing external wall system. Structural glazing is a technique for fixing glass to a frame so no metal shows outside. A curtain wall can be built using structural glazing, but the terms describe different things.",
+          "q": "Is structural glazing the same as a curtain wall?"
+        },
+        {
+          "a": "For most multi-storey commercial buildings a curtain wall is the practical envelope, often finished with structural glazing for a frameless look. The right mix depends on height, budget and how much visible metal you can accept.",
+          "q": "Which is better for a commercial building in Gujarat?"
+        },
+        {
+          "a": "Not when it's engineered and installed properly. Good drainage, quality structural silicone and careful workmanship prevent water ingress. Most leaks trace back to poor detailing or installation, not the system itself.",
+          "q": "Does structural glazing leak?"
+        }
+      ],
+      "publishedAt": "2026-08-08T09:00:00.000Z",
+      "slug": "structural-glazing-vs-curtain-wall",
+      "title": "Structural glazing vs curtain wall: which is right for your building?",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise — aluminium & glazing contractor in Vadodara since 2000",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "p3a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Toughened and laminated glass are the two safety glasses you'll be offered for most projects. The quick answer: toughened glass is stronger and shatters into small blunt granules, while laminated glass holds together when broken because of a plastic interlayer. Many projects use both — often combined. Here's how to pick."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Toughened (tempered) glass"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p3c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Toughened glass is heat-treated to be four to five times stronger than ordinary glass. If it does break, it crumbles into small, relatively harmless pieces rather than sharp shards. It's the standard choice for doors, shower partitions, railings and most windows."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Laminated glass"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p3e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Laminated glass is two or more sheets bonded with a tough PVB interlayer. When it breaks, the fragments stick to the interlayer instead of falling — so the pane stays in the opening. That makes it the choice for overhead glazing, façades at height, and anywhere security or sound reduction matters."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Toughened vs laminated at a glance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p3g",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Strength on impact: toughened is harder to break; laminated stays intact when it does."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3h",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Safety on failure: toughened crumbles safely; laminated holds together — safer overhead and at height."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3i",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Security and sound: laminated resists forced entry and cuts noise better."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3j",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Cost: toughened is usually more economical; laminated costs more."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3k",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "So which should you choose?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p3l",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "For everyday windows, doors, partitions and railings, toughened glass is the sensible, cost-effective pick. For overhead glazing, tall façades, street-level security or noisy locations, specify laminated — or toughened-laminated, which combines both. When in doubt, we recommend based on where the glass sits and what it has to protect."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p3m",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s1",
+              "_type": "span",
+              "marks": [],
+              "text": "We supply and install both across residential and institutional projects. See "
+            },
+            {
+              "_key": "s2",
+              "_type": "span",
+              "marks": [
+                "l1"
+              ],
+              "text": "our services"
+            },
+            {
+              "_key": "s3",
+              "_type": "span",
+              "marks": [],
+              "text": " or "
+            },
+            {
+              "_key": "s4",
+              "_type": "span",
+              "marks": [
+                "l2"
+              ],
+              "text": "ask us what suits your project"
+            },
+            {
+              "_key": "s5",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "l1",
+              "_type": "link",
+              "href": "/services/"
+            },
+            {
+              "_key": "l2",
+              "_type": "link",
+              "href": "/contact/"
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "category": "Buyer’s Guide",
+      "coverAlt": "Spider-fixed glass façade of the auditorium project in Vapi",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/a4ca7502e99107cf1048bfc32a68c52ec3cbc54a-1300x892.webp?w=1600&q=75&auto=format",
+      "excerpt": "Toughened glass is stronger and shatters into small blunt granules; laminated glass holds together when broken thanks to a plastic interlayer. Here's how to pick the right one — or combine both.",
+      "faqs": [
+        {
+          "a": "Both are safety glasses, but in different ways. Toughened glass breaks into small blunt pieces; laminated glass holds together and stays in the frame. For overhead or high-level glazing, laminated is safer because it doesn't fall when broken.",
+          "q": "Which is safer, toughened or laminated glass?"
+        },
+        {
+          "a": "Yes. Toughened-laminated glass combines the impact strength of toughening with the hold-together safety of lamination. It's used where both strength and security matter, such as tall façades and entrances.",
+          "q": "Can glass be both toughened and laminated?"
+        },
+        {
+          "a": "For overhead glazing, security-sensitive ground floors and noisy locations, yes — the hold-together safety and sound reduction justify it. For ordinary windows and partitions, toughened glass is usually enough.",
+          "q": "Is laminated glass worth the extra cost?"
+        }
+      ],
+      "publishedAt": "2026-08-04T09:00:00.000Z",
+      "slug": "toughened-vs-laminated-glass",
+      "title": "Toughened vs laminated glass: how to choose for your project",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise — aluminium & glazing contractor in Vadodara since 2000",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "p4a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Gujarat's climate — long hot summers, strong sun and a heavy monsoon — is demanding on windows. Aluminium handles it well because it doesn't warp, rot or corrode like timber or steel, but the details matter: the powder-coat finish, glass choice and proper drainage are what keep aluminium windows performing for decades. Here's what to look for."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Why aluminium suits Gujarat"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p4c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Aluminium is dimensionally stable in heat, immune to rot and termites, and — when powder-coated or anodised — highly resistant to humid, salty air. It carries large glass panes on slim frames, so you get more light and a cleaner look than bulkier materials allow."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Get the finish right"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p4e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "The finish is the frame's armour. A quality powder-coat or anodised finish resists fading and corrosion through years of sun and monsoon. Cheap coatings chalk and fade — insist on a proven finish and ask about the coating thickness."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Choose glass for heat, not just looks"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p4g",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "On south- and west-facing windows, plain clear glass lets in a lot of heat. Reflective or low-E coated glass, or a double-glazed unit, cuts solar gain and keeps rooms cooler — reducing the load on your air-conditioning. It's a small upfront cost that pays back every summer."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4h",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Don't overlook drainage and seals"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "p4i",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Monsoon water finds every weak joint. Well-designed aluminium windows have drainage channels (weep holes) and quality gaskets that shed water outward and keep it from pooling in the track. This detailing, more than anything, decides whether a window leaks in heavy rain."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4j",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Powder-coated or anodised finish from a known coater"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4k",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Heat-control glass on sun-facing elevations"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4l",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Proper weep-hole drainage and quality gaskets"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4m",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s",
+              "_type": "span",
+              "marks": [],
+              "text": "Sturdy hardware — rollers, locks and handles rated for daily use"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "p4n",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s1",
+              "_type": "span",
+              "marks": [],
+              "text": "We fabricate and install aluminium windows and doors for homes and institutions across Gujarat. See "
+            },
+            {
+              "_key": "s2",
+              "_type": "span",
+              "marks": [
+                "l1"
+              ],
+              "text": "aluminium windows & doors"
+            },
+            {
+              "_key": "s3",
+              "_type": "span",
+              "marks": [],
+              "text": " or "
+            },
+            {
+              "_key": "s4",
+              "_type": "span",
+              "marks": [
+                "l2"
+              ],
+              "text": "book a free site visit"
+            },
+            {
+              "_key": "s5",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "l1",
+              "_type": "link",
+              "href": "/services/aluminium-windows-doors/"
+            },
+            {
+              "_key": "l2",
+              "_type": "link",
+              "href": "/contact/"
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "category": "Windows & Doors",
+      "coverAlt": "Aluminium curtain-wall glazing on the GFSU campus building, Gandhinagar",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/84ca904f29af0ced1ba3459d25f0d9f9f5956c13-966x1148.webp?w=1600&q=75&auto=format",
+      "excerpt": "Aluminium windows suit Gujarat's hot summers and heavy monsoon because they don't warp, rot or corrode — but the finish, glass and drainage decide how long they last. Here's what to look for.",
+      "faqs": [
+        {
+          "a": "Yes. Aluminium doesn't warp or rot in heat and humidity, and with a good powder-coat finish it resists corrosion for years. Pair the frames with heat-control glass on sun-facing sides to keep rooms cooler.",
+          "q": "Are aluminium windows good for a hot climate like Gujarat's?"
+        },
+        {
+          "a": "Well-made ones don't. The key is drainage — weep holes and quality gaskets that shed rainwater outward. Most leaks come from poor detailing or installation rather than the aluminium itself.",
+          "q": "Do aluminium windows leak during the monsoon?"
+        },
+        {
+          "a": "Both work. Aluminium offers slimmer frames, larger glass spans and greater strength, which suits large openings and a modern look. The right choice depends on your span, budget and design — we can advise for your specific openings.",
+          "q": "Aluminium or uPVC windows for Gujarat?"
+        }
+      ],
+      "publishedAt": "2026-07-30T09:00:00.000Z",
+      "slug": "aluminium-windows-gujarat-climate",
+      "title": "Choosing aluminium windows for Gujarat's climate",
+      "updatedAt": null
+    }
+  ],
   "projects": [
     {
       "alt": "Structural glazing at Central Bus Station, Ved Transcube Plaza, Vadodara",
@@ -122,7 +1272,7 @@
       "location": "Vadodara, Gujarat",
       "name": "Central Bus Station,",
       "scope": "Structural glazing",
-      "slug": null,
+      "slug": "central-bus-station",
       "type": "Public infrastructure"
     },
     {
@@ -133,7 +1283,7 @@
       "location": "Rajkot, Gujarat",
       "name": "H.J. Doshi",
       "scope": "Curtain wall",
-      "slug": null,
+      "slug": "hj-doshi-hospital",
       "type": "Healthcare"
     },
     {
@@ -144,7 +1294,7 @@
       "location": "Vapi, Gujarat",
       "name": "Vapi",
       "scope": "Spider glass fixing",
-      "slug": null,
+      "slug": "vapi-auditorium",
       "type": "Public auditorium"
     },
     {
@@ -155,7 +1305,7 @@
       "location": "Jarod, Gujarat",
       "name": "MEPRO",
       "scope": "12mm glass partition",
-      "slug": null,
+      "slug": "mepro",
       "type": "Commercial facility"
     },
     {
@@ -166,7 +1316,7 @@
       "location": "Gandhinagar, Gujarat",
       "name": "GFSU,",
       "scope": "Curtain wall",
-      "slug": null,
+      "slug": "gfsu-gandhinagar",
       "type": "University campus"
     }
   ],

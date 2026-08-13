@@ -95,6 +95,63 @@ export function FaqJsonLd({ faqs }: { faqs: { q: string; a: string }[] }) {
   );
 }
 
+/**
+ * Article (BlogPosting) JSON-LD — one per blog post. This is the structured
+ * data Google shows as rich results and that AI engines parse to attribute a
+ * quote. Author + dates carry the E-E-A-T / freshness signals.
+ */
+export function ArticleJsonLd({
+  title,
+  description,
+  slug,
+  image,
+  authorName,
+  authorCredential,
+  datePublished,
+  dateModified,
+}: {
+  title: string;
+  description: string;
+  slug: string;
+  image: string;
+  authorName: string;
+  authorCredential?: string;
+  datePublished: string;
+  dateModified?: string;
+}) {
+  const url = `${site.url}/blog/${slug}/`;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
+    headline: title,
+    description,
+    image,
+    url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    datePublished,
+    dateModified: dateModified || datePublished,
+    author: {
+      "@type": "Person",
+      name: authorName,
+      ...(authorCredential ? { jobTitle: authorCredential } : {}),
+    },
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      "@id": `${site.url}/#business`,
+      logo: { "@type": "ImageObject", url: `${site.url}/logo-mark.png` },
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 /** Service JSON-LD — one per service detail page, linked to the business. */
 export function ServiceJsonLd({
   title,

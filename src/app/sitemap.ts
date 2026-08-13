@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { showcaseProjects } from "@/lib/projects";
+import { blogPosts } from "@/lib/posts";
 
 // Required for output: 'export' — sitemap route must be statically rendered.
 export const dynamic = "force-static";
@@ -19,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/",
     "/projects/",
     "/clients/",
+    "/blog/",
     "/contact/",
     "/privacy/",
   ];
@@ -31,7 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     (project) => `/projects/${project.slug}/`
   );
 
-  return [...staticRoutes, ...serviceRoutes, ...projectRoutes].map((path) => ({
+  const blogRoutes = blogPosts.map((post) => `/blog/${post.slug}/`);
+
+  return [
+    ...staticRoutes,
+    ...serviceRoutes,
+    ...projectRoutes,
+    ...blogRoutes,
+  ].map((path) => ({
     url: `${site.url}${path}`,
     lastModified,
   }));

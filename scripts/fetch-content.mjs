@@ -24,6 +24,7 @@ const client = createClient({
 // Sanity image CDN params — auto=format serves avif/webp, sized per usage.
 const IMG_PROJECT = '?w=1800&q=75&auto=format'
 const IMG_SERVICE = '?w=1200&q=75&auto=format'
+const IMG_POST = '?w=1600&q=75&auto=format'
 
 const query = `{
   "settings": *[_type == "siteSettings"][0]{
@@ -48,6 +49,25 @@ const query = `{
   },
   "clients": *[_type == "client"] | order(order asc){
     name, "featured": featuredOnHomepage
+  },
+  "posts": *[_type == "post" && featured == true] | order(publishedAt desc){
+    title, excerpt, category,
+    "slug": slug.current,
+    "coverUrl": coverImage.asset->url + "${IMG_POST}",
+    coverAlt,
+    author,
+    "publishedAt": publishedAt,
+    "updatedAt": updatedAt,
+    faqs[]{q, a},
+    // Portable Text — image blocks get their CDN url resolved inline so the
+    // frontend never has to touch the Sanity asset pipeline at render time.
+    "body": body[]{
+      ...,
+      _type == "image" => {
+        "url": asset->url + "${IMG_POST}",
+        alt, caption
+      }
+    }
   }
 }`
 

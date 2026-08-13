@@ -69,6 +69,7 @@ export const site = {
     { label: "Services", href: "/services" },
     { label: "Projects", href: "/projects" },
     { label: "Clients", href: "/clients" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
   ],
 
