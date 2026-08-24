@@ -1,3 +1,4 @@
+import Link from "next/link";
 import RippleButton from "@/components/ui/RippleButton";
 import { site } from "@/lib/site";
 
@@ -24,6 +25,18 @@ export default function NotFound() {
           WhatsApp us
         </RippleButton>
       </div>
+      <nav aria-label="Site map" className="mt-16 border-t border-hairline-light pt-8">
+        <p className="font-mono text-label font-medium uppercase text-text-muted">
+          Or find what you need
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-x-8 gap-y-2 text-charcoal underline">
+          {site.nav.map((item) => (
+            <li key={item.href}>
+              <Link href={item.href}>{item.label}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </main>
   );
 }

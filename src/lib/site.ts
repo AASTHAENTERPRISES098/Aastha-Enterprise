@@ -48,6 +48,13 @@ export const site = {
     full: `${s.addressLine1}, ${s.addressLine2}, ${s.city} – ${s.pincode}`,
   },
 
+  /**
+   * Social profile URLs for JSON-LD `sameAs` (links this business as one
+   * entity across the web for Google/AI). Add Facebook/YouTube/Instagram
+   * URLs here once confirmed.
+   */
+  social: [] as string[],
+
   /** Google Business Profile map links (place id g/11b6gl4f58) */
   maps: {
     shareUrl: "https://maps.app.goo.gl/LVAW5uEeBBwziim29",

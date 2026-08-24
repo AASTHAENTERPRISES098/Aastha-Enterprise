@@ -18,7 +18,13 @@ export function LocalBusinessJsonLd() {
     telephone: site.phone.e164,
     email: site.email,
     foundingDate: String(site.established),
-    founder: { "@type": "Person", name: site.owner },
+    founder: {
+      "@type": "Person",
+      name: site.owner,
+      jobTitle: "Founder",
+      url: site.url,
+    },
+    sameAs: [site.maps.shareUrl, ...site.social],
     address: {
       "@type": "PostalAddress",
       streetAddress: `${site.address.line1}, ${site.address.line2}`,
@@ -134,7 +140,8 @@ export function ArticleJsonLd({
     author: {
       "@type": "Person",
       name: authorName,
-      ...(authorCredential ? { jobTitle: authorCredential } : {}),
+      url: site.url,
+      jobTitle: authorCredential || "Founder",
     },
     publisher: {
       "@type": "Organization",
