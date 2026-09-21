@@ -1,0 +1,66 @@
+name: Website checks
+
+# Lints and builds the marketing site on every pull request and every push to
+# main.
+#
+# ## This is a signal, not a gate
+#
+# Cloudflare Pages reacts to the same push in parallel and has no idea this
+# workflow exists. A red run here does NOT stop a deploy. To make it a real
+# gate, protect `main` and mark the `check` job as a required status check —
+# then a red run blocks the merge, and only merged code reaches Cloudflare.
+#
+# ## Why the build step matters more than it looks
+#
+# `npm run build` is `node scripts/fetch-content.mjs && next build`. The fetch
+# pulls live content from Sanity, so this job also proves the CMS query still
+# works against the real dataset and that every published document still
+# renders. A schema change that breaks a page fails here rather than on the
+# live site.
+#
+# `next build` also runs TypeScript, so there is no separate typecheck step —
+# a type error fails the build.
+#
+# ## Bun here, npm on Cloudflare
+#
+# 🔴 The repo commits `bun.lock` and no `package-lock.json`. Cloudflare
+# auto-detects npm and runs `npm install`, which ignores `bun.lock` entirely —
+# so production resolves dependencies unpinned and can differ from what this
+# job tested. Closing that gap means picking one: either commit a
+# package-lock.json and have Cloudflare run `npm ci`, or set Cloudflare's build
+# command to use bun. Until then, treat a green run here as "the code is fine",
+# not "the exact dependency tree Cloudflare will use is fine".
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      # --frozen-lockfile so a lockfile that was never committed fails here
+      # rather than on someone else's machine.
+      - name: Install dependencies
+        working-directory: aastha-enterprise
+        run: bun install --frozen-lockfile
+
+      - name: Lint
+        working-directory: aastha-enterprise
+        run: bun run lint
+
+      # Fetches from Sanity, then builds and typechecks. No secrets needed: the
+      # dataset is public, and NEXT_PUBLIC_WEB3FORMS_KEY is optional at build
+      # time (the form falls back to an empty key), so its absence cannot fail
+      # this job — it only matters for the deployed bundle.
+      - name: Build
+        working-directory: aastha-enterprise
+        run: bun run build
