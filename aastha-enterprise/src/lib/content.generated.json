@@ -116,6 +116,2034 @@
   "posts": [
     {
       "author": {
+        "credential": "Founder, Aastha Enterprise",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "k0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k1",
+              "_type": "span",
+              "marks": [],
+              "text": "Sliding, casement, and tilt-turn are the three aluminium window types you'll be offered for almost any home or office project. Each opens differently, and that difference matters more for day-to-day comfort than most people expect when they're just comparing photos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k3",
+              "_type": "span",
+              "marks": [],
+              "text": "The three types, in short"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k5",
+              "_type": "span",
+              "marks": [],
+              "text": "Sliding — panels move horizontally within the frame, don't project outward"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k7",
+              "_type": "span",
+              "marks": [],
+              "text": "Casement — hinged on one side, swings fully open like a door"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k9",
+              "_type": "span",
+              "marks": [],
+              "text": "Tilt-turn — hybrid: tilts inward from the top for ventilation, or swings fully open like a casement"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k10",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k11",
+              "_type": "span",
+              "marks": [],
+              "text": "Sliding windows"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k12",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k13",
+              "_type": "span",
+              "marks": [],
+              "text": "Sliding windows are the space-efficient option — because the panels move within the frame rather than swinging outward or inward, they work anywhere a projecting window would be impractical: balconies, narrow corridors, small bathrooms, and rooms that open directly onto a walkway."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k14",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k15",
+              "_type": "span",
+              "marks": [],
+              "text": "The trade-off is ventilation: only about half the total window area can be open at once, since one panel always overlaps the other's track. For the same-size opening, a casement window will let in noticeably more air."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k16",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k17",
+              "_type": "span",
+              "marks": [],
+              "text": "Casement windows"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k19",
+              "_type": "span",
+              "marks": [],
+              "text": "Casement windows swing fully open on a side hinge, exposing the entire window opening to airflow — this makes them the best choice when maximum ventilation matters, such as bedrooms, living rooms, and kitchens."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k20",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k21",
+              "_type": "span",
+              "marks": [],
+              "text": "Because they swing outward, they need clear external space to open into. This makes them less suitable directly above a busy walkway, a narrow balcony, or anywhere the open sash could be a hazard or obstruction. They also seal more tightly than sliding windows when closed, which helps with both dust and minor sound insulation."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k22",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k23",
+              "_type": "span",
+              "marks": [],
+              "text": "Tilt-turn windows"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k24",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k25",
+              "_type": "span",
+              "marks": [],
+              "text": "Tilt-turn windows give you both options in one unit: tilt the top inward for a controlled ventilation gap, useful for airflow without leaving the window fully open, especially overnight for security, or unlatch fully and swing it open like a casement for cleaning or maximum airflow."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k26",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k27",
+              "_type": "span",
+              "marks": [],
+              "text": "This flexibility comes from more hardware — multi-point locking mechanisms and a dual-action hinge system — which is why tilt-turn windows sit at a higher price point than sliding or casement windows of the same size."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k28",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k29",
+              "_type": "span",
+              "marks": [],
+              "text": "A side-by-side look at ventilation, security and cost"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k30",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k31",
+              "_type": "span",
+              "marks": [],
+              "text": "Ventilation: casement and full-open tilt-turn > tilt-mode tilt-turn > sliding"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k33",
+              "_type": "span",
+              "marks": [],
+              "text": "Security: tilt-turn and casement generally seal and lock more securely than sliding, though hardware quality matters more than window type"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k34",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k35",
+              "_type": "span",
+              "marks": [],
+              "text": "Ease of cleaning: casement and tilt-turn (full-open) are easiest to clean from inside; sliding requires reaching further for outer panes"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k36",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k37",
+              "_type": "span",
+              "marks": [],
+              "text": "Cost for the same size: sliding is typically least expensive, casement mid-range, tilt-turn highest"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k38",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k39",
+              "_type": "span",
+              "marks": [],
+              "text": "A practical decision by room"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k40",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k41",
+              "_type": "span",
+              "marks": [],
+              "text": "Tight balcony or corridor → sliding"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k42",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k43",
+              "_type": "span",
+              "marks": [],
+              "text": "Bedroom or living room where airflow matters most → casement"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k44",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k45",
+              "_type": "span",
+              "marks": [],
+              "text": "Rooms where you want ventilation control plus easy cleaning, and budget allows → tilt-turn"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k46",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k47",
+              "_type": "span",
+              "marks": [],
+              "text": "Ground-floor rooms with security concerns → tilt-turn or casement with quality multi-point locks"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k48",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k49",
+              "_type": "span",
+              "marks": [],
+              "text": "Our recommendation: don't choose one window type for the whole house. Match the type to what each room actually needs — sliding where space is tight, casement where airflow matters most, and tilt-turn where you want both and the budget allows it."
+            }
+          ],
+          "markDefs": [],
+          "style": "blockquote"
+        },
+        {
+          "_key": "k50",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k51",
+              "_type": "span",
+              "marks": [],
+              "text": "What we check on-site before recommending a type"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k52",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k53",
+              "_type": "span",
+              "marks": [],
+              "text": "Room orientation, how the window is likely to be used day-to-day, whether there's space for an outward swing, and your budget all factor into the recommendation — which is why we do a free site visit and measurement rather than quoting window types over the phone."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "category": "Windows & Doors",
+      "coverAlt": "Three aluminium window styles — sliding, casement and tilt-turn — shown open on a building facade",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/a6d4b073a7c6108ada34cc60873829967df94965-1408x768.jpg?w=1600&q=75&auto=format",
+      "excerpt": "Sliding suits tight balconies, casement gives the best ventilation, and tilt-turn offers both at a higher price — here's which to choose for which room.",
+      "faqs": [
+        {
+          "a": "Casement and tilt-turn windows generally seal tighter and lock at multiple points, making them marginally more secure than sliding windows — though the quality of the hardware itself matters more than the window type alone.",
+          "q": "Which window type is most secure?"
+        },
+        {
+          "a": "Sliding windows have the fewest moving parts and are the simplest to maintain long-term. Tilt-turn has the most hardware and benefits from periodic servicing of its locking mechanism.",
+          "q": "Which is easiest to maintain?"
+        },
+        {
+          "a": "Yes, and it's common — many homes use sliding windows for balconies and casement or tilt-turn for bedrooms and living rooms, matched to what each room needs.",
+          "q": "Can I mix window types within the same house?"
+        },
+        {
+          "a": "For rooms where you want controlled ventilation plus easy full-opening access for cleaning, yes — the extra hardware cost buys real day-to-day flexibility. For a simple balcony or utility window, sliding is usually the more sensible spend.",
+          "q": "Are tilt-turn windows worth the extra cost?"
+        }
+      ],
+      "publishedAt": "2026-09-21T09:04:00.000Z",
+      "slug": "sliding-vs-casement-vs-tilt-turn-windows",
+      "title": "Sliding vs casement vs tilt-turn aluminium windows — which suits which room",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "k0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k1",
+              "_type": "span",
+              "marks": [],
+              "text": "Choosing a structural glazing contractor for a commercial or institutional building is a different decision than hiring someone for home windows. A façade failure isn't just an aesthetic problem — it's a safety and liability issue, which is why the selection criteria below go beyond price."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k3",
+              "_type": "span",
+              "marks": [],
+              "text": "Why this decision carries more weight than residential work"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k5",
+              "_type": "span",
+              "marks": [],
+              "text": "A structural glazing façade on a hospital, campus, or commercial building has to withstand real wind loads, thermal movement, and years of structural stress across a large surface area — requirements a residential window job simply doesn't face. A contractor who has only handled shopfronts, balconies, or small home installations may not have the fabrication depth or engineering coordination a full building façade demands."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k7",
+              "_type": "span",
+              "marks": [],
+              "text": "What to actually check before signing"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k9",
+              "_type": "span",
+              "marks": [],
+              "text": "1. In-house fabrication, not just installation"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "k10",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k11",
+              "_type": "span",
+              "marks": [],
+              "text": "Many companies calling themselves ‘glazing contractors’ subcontract the actual fabrication and only handle site installation. Ask directly whether cutting, framing, and glass processing happen in their own workshop. This matters for two reasons: quality control is tighter when one team owns the whole process, and if something needs adjustment mid-project, an in-house fabricator can turn it around far faster than one relying on a third party."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k12",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k13",
+              "_type": "span",
+              "marks": [],
+              "text": "2. Reference projects at a comparable scale"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "k14",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k15",
+              "_type": "span",
+              "marks": [],
+              "text": "Ask for actual buildings they've glazed — addresses you can visit or call about, not just photographs. We've supplied structural glazing for H.J. Doshi Hospital in Rajkot, GFSU's campus building in Gandhinagar, and the spider-glass façade of a public auditorium in Vapi — three very different structural and access challenges. A hospital's occupied-building constraints, working around patients and existing operations, are nothing like a new-build university campus."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k16",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k17",
+              "_type": "span",
+              "marks": [],
+              "text": "3. A written wind-load or structural note"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "k18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k19",
+              "_type": "span",
+              "marks": [],
+              "text": "For any building above a couple of floors, a competent glazing contractor should provide, or actively coordinate with a structural engineer to provide, documented wind-load calculations for the façade system. Verbal reassurance that ‘it will hold’ is not the same as an engineering document you can file and reference later."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k20",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k21",
+              "_type": "span",
+              "marks": [],
+              "text": "4. Institutional client history"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "k22",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k23",
+              "_type": "span",
+              "marks": [],
+              "text": "Contractors who have worked with pharmaceutical, construction, or finance-sector clients are used to the documentation and compliance standards those industries demand. Even if your project is outside those sectors, this history is a useful proxy for how carefully a contractor handles paperwork, timelines, and quality checks."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k24",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k25",
+              "_type": "span",
+              "marks": [],
+              "text": "5. Glass specification in writing"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "k26",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k27",
+              "_type": "span",
+              "marks": [],
+              "text": "A proper quote names the glass type and thickness explicitly — float, toughened, or laminated — because this affects both cost and safety in a real way. If a quote just says ‘glass’ without specifying type and thickness, ask for clarification before proceeding."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k28",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k29",
+              "_type": "span",
+              "marks": [],
+              "text": "Red flags to watch for"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k30",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k31",
+              "_type": "span",
+              "marks": [],
+              "text": "Quotes with no glass type or thickness specified"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k33",
+              "_type": "span",
+              "marks": [],
+              "text": "No mention of expansion joints or allowance for thermal movement"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k34",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k35",
+              "_type": "span",
+              "marks": [],
+              "text": "Unwillingness to name a project you can visit or a reference you can call"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k36",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k37",
+              "_type": "span",
+              "marks": [],
+              "text": "Pressure to sign before a site visit and measurement have happened"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k38",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k39",
+              "_type": "span",
+              "marks": [],
+              "text": "What a proper process looks like"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k40",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k41",
+              "_type": "span",
+              "marks": [],
+              "text": "A sound structural glazing project typically moves through: site visit and measurement, structural and wind-load review for the building's height and location, a written quotation specifying glass type, thickness, and framing system, a project timeline, and finally fabrication and installation. Skipping the structural review step to save time is the single most common shortcut that causes problems later."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k42",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k43",
+              "_type": "span",
+              "marks": [],
+              "text": "Our recommendation: don't select on price alone. Ask the four questions above — in-house fabrication, comparable references, written structural documentation, and precise glass specification — and you'll filter out most of the risk before signing anything."
+            }
+          ],
+          "markDefs": [],
+          "style": "blockquote"
+        },
+        {
+          "_key": "k45",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k46",
+              "_type": "span",
+              "marks": [],
+              "text": "If you're still weighing whether your building needs a frameless structural glazing look or a visible-mullion curtain wall, our "
+            },
+            {
+              "_key": "k47",
+              "_type": "span",
+              "marks": [
+                "k44"
+              ],
+              "text": "structural glazing vs curtain wall comparison"
+            },
+            {
+              "_key": "k48",
+              "_type": "span",
+              "marks": [],
+              "text": " breaks down which suits which type of building."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "k44",
+              "_type": "link",
+              "href": "/blog/structural-glazing-vs-curtain-wall/"
+            }
+          ],
+          "style": "normal"
+        }
+      ],
+      "category": "Glazing & Façades",
+      "coverAlt": "Aluminium framing and glass panels being fitted onto a commercial building facade",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/af0527f43991112d0f9217faf6c45a8f88d4fb78-1584x672.jpg?w=1600&q=75&auto=format",
+      "excerpt": "For a commercial or institutional glazing project, check in-house fabrication, comparable project scale, and a written wind-load calculation — not just the lowest quote.",
+      "faqs": [
+        {
+          "a": "This varies with building size and glass lead times, but expect anywhere from several weeks to a few months for a full façade. Ask for a project-specific written timeline rather than relying on a general estimate.",
+          "q": "How long does a commercial glazing project typically take?"
+        },
+        {
+          "a": "For larger buildings, yes — a good glazing contractor coordinates with a structural engineer rather than skipping this step, and can often recommend one if you don't already have one on the project.",
+          "q": "Do I need a structural engineer separate from the glazing contractor?"
+        },
+        {
+          "a": "Structural glazing uses silicone-bonded glass panels with no visible external frame, giving a smooth, frameless look. A curtain wall has a visible aluminium mullion grid holding the glass.",
+          "q": "What's the difference between structural glazing and a curtain wall?"
+        },
+        {
+          "a": "Yes, though it requires more careful sequencing to work around existing operations — this is exactly the kind of project we've handled at hospital sites, where the building can't simply be shut down during construction.",
+          "q": "Can structural glazing be installed on an occupied building?"
+        }
+      ],
+      "publishedAt": "2026-09-21T09:03:00.000Z",
+      "slug": "choosing-structural-glazing-contractor",
+      "title": "How to choose a structural glazing contractor for a commercial building",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "k0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k1",
+              "_type": "span",
+              "marks": [],
+              "text": "Modular kitchen cost isn't one number — it's five separate line items stacked together: layout, carcass material, shutter finish, hardware, and countertop. Two kitchens that look the “same size” on a floor plan can differ by ₹1 lakh or more depending on these choices. Here's how to read a modular kitchen quote."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k3",
+              "_type": "span",
+              "marks": [],
+              "text": "The five things that actually set the price"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k5",
+              "_type": "span",
+              "marks": [],
+              "text": "Layout (straight, parallel, L-shaped, U-shaped, island)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k7",
+              "_type": "span",
+              "marks": [],
+              "text": "Carcass material (usually plywood grade)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k9",
+              "_type": "span",
+              "marks": [],
+              "text": "Shutter finish (laminate, acrylic, PU, membrane)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k10",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k11",
+              "_type": "span",
+              "marks": [],
+              "text": "Hardware (hinges, drawer channels, corner units)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k12",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k13",
+              "_type": "span",
+              "marks": [],
+              "text": "Countertop material (granite, quartz, other stone)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k14",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k15",
+              "_type": "span",
+              "marks": [],
+              "text": "2026 cost ranges in Vadodara"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k16",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k17",
+              "_type": "span",
+              "marks": [],
+              "text": "Basic — laminate shutters, standard hardware, straight/parallel layout: ₹1.5–2.5 lakh"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k19",
+              "_type": "span",
+              "marks": [],
+              "text": "Mid-range — acrylic or PU shutters, soft-close hardware: ₹2.5–3.5 lakh"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k20",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k21",
+              "_type": "span",
+              "marks": [],
+              "text": "Premium — L-shaped or U-shaped, branded hardware, stone countertop: ₹3.5–5 lakh+"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k22",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k23",
+              "_type": "span",
+              "marks": [],
+              "text": "For context, a full premium-tier 2BHK interior package in Vadodara — kitchen plus two wardrobes, false ceiling, paint and lighting — runs roughly ₹4.8–8.8 lakh. The kitchen is typically the single largest line item inside that budget, so getting this decision right matters more than almost anything else in the package."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k24",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k25",
+              "_type": "span",
+              "marks": [],
+              "text": "Why layout changes the price more than people expect"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k26",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k27",
+              "_type": "span",
+              "marks": [],
+              "text": "Layout affects cost per running foot, not just total kitchen size."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k28",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k29",
+              "_type": "span",
+              "marks": [],
+              "text": "Straight/parallel: cheapest per sq ft, simplest cabinetry"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k30",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k31",
+              "_type": "span",
+              "marks": [],
+              "text": "L-shaped: adds a corner unit needing special hardware like a carousel or “magic corner,” meaningfully pricier per running foot than straight"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k33",
+              "_type": "span",
+              "marks": [],
+              "text": "U-shaped/island: highest cost, but suits larger kitchens and heavier daily cooking use"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k34",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k35",
+              "_type": "span",
+              "marks": [],
+              "text": "Where the hidden costs are"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k36",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k37",
+              "_type": "span",
+              "marks": [],
+              "text": "Quotes can look similar on the surface while hiding real differences underneath. Watch for these:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k38",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k39",
+              "_type": "span",
+              "marks": [],
+              "text": "Tall unit and loft cabinet pricing — often quoted separately from base and wall units"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k40",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k41",
+              "_type": "span",
+              "marks": [],
+              "text": "Appliance cutouts (hob, chimney, oven) — some quotes assume standard sizes and charge extra for custom appliance fitting"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k42",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k43",
+              "_type": "span",
+              "marks": [],
+              "text": "Countertop edge profile and joints — a seamless-look countertop costs more than a basic straight edge"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k44",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k45",
+              "_type": "span",
+              "marks": [],
+              "text": "Handle-less/push-open shutters — a design upgrade that adds cost per shutter, not per kitchen"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k46",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k47",
+              "_type": "span",
+              "marks": [],
+              "text": "Where to spend and where to save"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k48",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k49",
+              "_type": "span",
+              "marks": [],
+              "text": "If budget is tight, spend on hardware first and shutter finish second — cheap hinges and drawer channels fail first, and they're the most annoying thing to have go wrong daily. Reserve premium shutter finishes for cabinets you open constantly, and use a simpler finish on tall storage units you rarely touch."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k50",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k51",
+              "_type": "span",
+              "marks": [],
+              "text": "Our recommendation: fix your layout and hardware quality first, then adjust shutter finish and countertop material to fit what's left of your budget — not the other way around."
+            }
+          ],
+          "markDefs": [],
+          "style": "blockquote"
+        },
+        {
+          "_key": "k52",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k53",
+              "_type": "span",
+              "marks": [],
+              "text": "Timeline"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k54",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k55",
+              "_type": "span",
+              "marks": [],
+              "text": "A straightforward kitchen typically installs within 1–2 weeks once materials arrive at site. More complex layouts with custom hardware, longer countertop runs, or extensive appliance integration can take longer — always confirm a written timeline as part of your quotation, not a verbal estimate."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "category": "Buyer’s Guide",
+      "coverAlt": "Modern modular kitchen with L-shaped layout, cabinets and countertop in a Vadodara home",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/7fcff33da13856fe4f669e542c64860f76d13adf-1408x768.jpg?w=1600&q=75&auto=format",
+      "excerpt": "A modular kitchen in Vadodara typically runs ₹1.5–5 lakh depending on layout, shutter finish and hardware — here's exactly what drives the number up or down.",
+      "faqs": [
+        {
+          "a": "Carpenter-made can look cheaper upfront for very simple designs, but modular typically offers a more consistent finish, standardised hardware, and a longer warranty on fittings — worth weighing against the small price gap.",
+          "q": "Is modular cheaper than a carpenter-made kitchen?"
+        },
+        {
+          "a": "Usually the countertop (granite or quartz) and corner-unit hardware for L-shaped/U-shaped layouts — not the shutters, which is where most people focus their attention first.",
+          "q": "What's the most expensive part of a modular kitchen?"
+        },
+        {
+          "a": "A straightforward kitchen typically installs in 1–2 weeks once materials arrive; complex layouts with custom hardware can take longer. Ask for a written project timeline.",
+          "q": "How long does installation take?"
+        },
+        {
+          "a": "Ideally yes, or at least their exact dimensions — hob, chimney and oven cutouts are sized to the specific appliance, and changing appliances after fabrication can mean costly rework.",
+          "q": "Do I need to finalise appliances before ordering the kitchen?"
+        }
+      ],
+      "publishedAt": "2026-09-21T09:02:00.000Z",
+      "slug": "modular-kitchen-cost-vadodara",
+      "title": "Modular kitchen cost breakdown in Vadodara (2026 pricing)",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "k0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k1",
+              "_type": "span",
+              "marks": [],
+              "text": "Gypsum and POP (Plaster of Paris) are the two most common false ceiling materials in Gujarat, and the right choice depends less on budget and more on what you're building: gypsum for speed, cleanliness and offices; POP for custom, design-led ceilings in homes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k3",
+              "_type": "span",
+              "marks": [],
+              "text": "The core difference in how they're made"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k5",
+              "_type": "span",
+              "marks": [],
+              "text": "Gypsum board is a factory-made panel, cut to size and screwed onto a metal grid — a dry, modular process. POP is wet plaster, mixed and applied by hand directly on-site, then shaped and finished by a craftsman. That single difference in process explains almost every other difference between them."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k7",
+              "_type": "span",
+              "marks": [],
+              "text": "2026 cost comparison"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k9",
+              "_type": "span",
+              "marks": [],
+              "text": "Gypsum board: ₹80–150 per sq ft"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k10",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k11",
+              "_type": "span",
+              "marks": [],
+              "text": "POP: ₹100–200 per sq ft"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k12",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k13",
+              "_type": "span",
+              "marks": [],
+              "text": "Metal/grid ceilings: ₹150–300 per sq ft"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k14",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k15",
+              "_type": "span",
+              "marks": [],
+              "text": "Wood-look panel ceilings: ₹250–500 per sq ft"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k16",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k17",
+              "_type": "span",
+              "marks": [],
+              "text": "These are indicative 2026 rates — actual pricing shifts with design complexity, number of lighting cutouts, ceiling height, and site access. Treat this as a planning range, not a quote."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k19",
+              "_type": "span",
+              "marks": [],
+              "text": "Installation speed and site disruption"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k20",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k21",
+              "_type": "span",
+              "marks": [],
+              "text": "Gypsum panels go up in days, with comparatively little dust — a real advantage if you're renovating a home you're still living in, or an office you can't fully shut down. POP needs wet plaster to cure and be finished in stages, which takes longer and creates more on-site dust and mess."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k22",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k23",
+              "_type": "span",
+              "marks": [],
+              "text": "Design flexibility"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k24",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k25",
+              "_type": "span",
+              "marks": [],
+              "text": "This is POP's strongest card. Because it's shaped by hand, POP allows curves, stepped ceiling levels, coves for hidden lighting, and custom mouldings that a flat gypsum panel simply can't replicate without significant extra framing work. If you want a distinctive living-room ceiling with layered lighting, POP is usually the better tool."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k26",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k27",
+              "_type": "span",
+              "marks": [],
+              "text": "Which for offices?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k28",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k29",
+              "_type": "span",
+              "marks": [],
+              "text": "Almost always gypsum. Offices need fast installation with minimal downtime, easy access to wiring and AC ducting above the ceiling (gypsum panels lift out individually for maintenance), and a clean, uniform grid that suits modular lighting layouts. POP's advantages — custom curves and mouldings — rarely matter for a functional office ceiling."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k30",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k31",
+              "_type": "span",
+              "marks": [],
+              "text": "Which for homes?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k33",
+              "_type": "span",
+              "marks": [],
+              "text": "It depends on the room and your design ambitions. For a design-forward living or dining room, POP's curves and cove lighting create a more finished, higher-end look. For bedrooms, utility areas, and budget-conscious homes, gypsum is faster, cheaper, and easier to repair later."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k34",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k35",
+              "_type": "span",
+              "marks": [],
+              "text": "Durability and repairs"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k36",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k37",
+              "_type": "span",
+              "marks": [],
+              "text": "Both last 15+ years under normal conditions. Gypsum's advantage is repairability — a damaged panel can be swapped individually. POP is more prone to hairline cracks if a building settles over years, and repairing it means re-plastering and repainting the affected section, which is more visible work than a gypsum panel swap."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k38",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k39",
+              "_type": "span",
+              "marks": [],
+              "text": "Our recommendation: gypsum for offices and budget-driven homes; POP where you want a design-led living space with custom lighting and curves. Many homes actually use both — gypsum in bedrooms and utility areas, POP in the living room."
+            }
+          ],
+          "markDefs": [],
+          "style": "blockquote"
+        },
+        {
+          "_key": "k40",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k41",
+              "_type": "span",
+              "marks": [],
+              "text": "Combining with lighting and modular furniture"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k42",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k43",
+              "_type": "span",
+              "marks": [],
+              "text": "False ceilings are rarely installed in isolation — they usually coordinate with cove or spotlight lighting layouts and, in offices, with modular furniture and partition placement. Planning these together avoids costly rework, which is why we look at ceiling, lighting and furniture as one interior package rather than separate jobs."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "category": "Interiors",
+      "coverAlt": "Modern false ceiling with recessed cove lighting in an interior space",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/88ced6f8274a8e7108934a7db579b328ba908b07-1408x768.jpg?w=1600&q=75&auto=format",
+      "excerpt": "Gypsum board installs faster and suits offices; POP allows custom curves and suits design-led homes. 2026 rates: gypsum ₹80–150/sq ft, POP ₹100–200/sq ft.",
+      "faqs": [
+        {
+          "a": "Both typically last 15+ years with normal use. Gypsum is easier to repair since individual panels can be replaced; POP repairs require re-plastering and repainting.",
+          "q": "Which lasts longer, gypsum or POP?"
+        },
+        {
+          "a": "Yes — this is one of the main practical reasons for installing one, in homes and offices alike. Plan cutouts for AC vents, wiring and lighting before installation starts.",
+          "q": "Can false ceilings hide AC ducting and wiring?"
+        },
+        {
+          "a": "Yes, even a partial perimeter false ceiling (rather than a full one) is common — it hides wiring and pipework and adds cove lighting without the cost of covering the entire ceiling.",
+          "q": "Is a false ceiling worth it for a small home?"
+        },
+        {
+          "a": "Yes, moisture-resistant gypsum board is available and recommended for kitchens, bathrooms and other humid areas instead of standard board.",
+          "q": "Is moisture-resistant gypsum available for kitchens and bathrooms?"
+        }
+      ],
+      "publishedAt": "2026-09-21T09:01:00.000Z",
+      "slug": "gypsum-vs-pop-false-ceiling",
+      "title": "Gypsum vs POP false ceiling — cost, durability, which for office vs home",
+      "updatedAt": null
+    },
+    {
+      "author": {
+        "credential": "Founder, Aastha Enterprise",
+        "name": "Hitesh Panchal"
+      },
+      "body": [
+        {
+          "_key": "k0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k1",
+              "_type": "span",
+              "marks": [],
+              "text": "If you're building or renovating a home in Vadodara, Ahmedabad, Surat or anywhere else in Gujarat, the honest short answer is: aluminium wins for most rooms, most of the time. It isn't close on long-term durability, and it's usually cheaper to own over 10+ years. uPVC has a real but narrow advantage — mainly sound insulation — that matters for specific rooms, not the whole house."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k3",
+              "_type": "span",
+              "marks": [],
+              "text": "Why Gujarat's climate is the real test, not the brochure"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k5",
+              "_type": "span",
+              "marks": [],
+              "text": "Every window brochure claims durability. What actually separates aluminium and uPVC in Gujarat is five months of 40°C+ heat, intense UV, and dust-laden wind every year, for 15–20 years straight. That's a very different test than a showroom in an air-conditioned mall."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k7",
+              "_type": "span",
+              "marks": [],
+              "text": "How aluminium holds up over time"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k9",
+              "_type": "span",
+              "marks": [],
+              "text": "Aluminium is a metal — it doesn't soften, warp, or degrade under UV. A powder-coated aluminium frame installed today will look and function almost the same in 15 years, provided the coating quality was good to start with. The frame won't expand enough with heat to jam a sliding track, and dust simply wipes off a hard metal surface."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k10",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k11",
+              "_type": "span",
+              "marks": [],
+              "text": "No UV-driven brittleness or discolouration"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k12",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k13",
+              "_type": "span",
+              "marks": [],
+              "text": "No warping from heat expansion/contraction"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k14",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k15",
+              "_type": "span",
+              "marks": [],
+              "text": "Hard surface resists dust abrasion, wipes clean"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k16",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k17",
+              "_type": "span",
+              "marks": [],
+              "text": "Widely serviceable — any local fabricator can repair or replace parts"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k18",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k19",
+              "_type": "span",
+              "marks": [],
+              "text": "Where uPVC struggles in this climate"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k20",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k21",
+              "_type": "span",
+              "marks": [],
+              "text": "uPVC is a rigid plastic (polyvinyl chloride). Under years of direct, intense sun — especially on west-facing windows that catch the harsh afternoon sun — the surface can become slightly brittle or discoloured over a long enough timeline. It also expands and contracts more than aluminium with heat swings, which over many years can affect how smoothly sliding sashes run."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k22",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k23",
+              "_type": "span",
+              "marks": [],
+              "text": "Where uPVC genuinely wins"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k24",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k25",
+              "_type": "span",
+              "marks": [],
+              "text": "This isn't one-sided — uPVC has two real strengths worth knowing:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k26",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k27",
+              "_type": "span",
+              "marks": [],
+              "text": "Sound insulation: its multi-chambered profile blocks outside noise slightly better than aluminium, useful for homes on busy roads or near markets"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k28",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k29",
+              "_type": "span",
+              "marks": [],
+              "text": "Thermal insulation in sealed, air-conditioned rooms — marginally better than standard aluminium, though thermally-broken aluminium profiles close most of this gap"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k30",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k31",
+              "_type": "span",
+              "marks": [],
+              "text": "Cost of ownership — not just the upfront price"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k32",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k33",
+              "_type": "span",
+              "marks": [],
+              "text": "Upfront, aluminium and uPVC can be comparably priced depending on profile and glass. The real difference shows up over years of ownership: aluminium hardware (rollers, locks) is standard and locally available almost everywhere in Gujarat, so repairs are quick and cheap. uPVC hardware is often specific to the brand or profile, meaning repairs sometimes need a branded dealer — longer waits and higher costs for something as simple as a worn roller."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k34",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k35",
+              "_type": "span",
+              "marks": [],
+              "text": "A practical decision by room"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k36",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k37",
+              "_type": "span",
+              "marks": [],
+              "text": "Balcony sliding doors, large living-room openings → aluminium (slimmer frames, more glass area, handles heat cycling well)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k38",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k39",
+              "_type": "span",
+              "marks": [],
+              "text": "Bedrooms/study on a busy road → uPVC worth considering for the noise reduction"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k40",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k41",
+              "_type": "span",
+              "marks": [],
+              "text": "Kitchen, utility, bathroom → aluminium (dust resistance, easy cleaning, no moisture-driven degradation)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k42",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k43",
+              "_type": "span",
+              "marks": [],
+              "text": "Whole-house consistency and easy future servicing → aluminium"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "k44",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k45",
+              "_type": "span",
+              "marks": [],
+              "text": "Our recommendation: for the vast majority of Gujarat homes, aluminium is the practical default — lower lifetime cost, no UV degradation, and servicing you can get done locally within a day. Reserve uPVC for specific noise-sensitive rooms if that's a real concern for your site."
+            }
+          ],
+          "markDefs": [],
+          "style": "blockquote"
+        },
+        {
+          "_key": "k46",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k47",
+              "_type": "span",
+              "marks": [],
+              "text": "What this looks like on your site"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "k48",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "k49",
+              "_type": "span",
+              "marks": [],
+              "text": "Every home is different — orientation, exposure, budget and room use all change the calculation. We do a free site visit and measurement before recommending anything, so you get a written quotation matched to your actual walls and windows, not a generic brochure comparison."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ],
+      "category": "Buyer’s Guide",
+      "coverAlt": "Close-up of an aluminium window frame installed on a home facade in bright daylight",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/c64e1ef4dbd65c20874d6b59b4b59c2ed37ae51b-1408x768.jpg?w=1600&q=75&auto=format",
+      "excerpt": "In Gujarat's heat, dust and UV, aluminium frames generally outlast uPVC and cost less to maintain — uPVC only pulls ahead on sound insulation for specific rooms.",
+      "faqs": [
+        {
+          "a": "Not meaningfully. Glass type and window size affect heat gain far more than frame material — a double-glazed or tinted unit will do more for comfort than switching frame material alone.",
+          "q": "Does aluminium make a room hotter than uPVC?"
+        },
+        {
+          "a": "Aluminium is typically cheaper to own over time because parts and repairs are locally available and standardised. Upfront pricing depends on profile and glass — ask for a site-specific quote.",
+          "q": "Which is cheaper, aluminium or uPVC?"
+        },
+        {
+          "a": "Aluminium itself doesn't rust, though hardware like hinges and locks should be specified as marine-grade in coastal air. We factor this in at the quotation stage for coastal sites.",
+          "q": "Can aluminium windows rust near the coast in Gujarat?"
+        },
+        {
+          "a": "With a quality powder-coated finish, 15–20+ years of reliable performance is normal before any major refurbishment is needed.",
+          "q": "How long do aluminium windows typically last?"
+        }
+      ],
+      "publishedAt": "2026-09-21T09:00:00.000Z",
+      "slug": "aluminium-vs-upvc-windows-gujarat",
+      "title": "Aluminium vs uPVC windows for Gujarat homes — which lasts longer in heat/dust",
+      "updatedAt": null
+    },
+    {
+      "author": {
         "credential": "Founder, Aastha Enterprise — aluminium & glazing contractor in Vadodara since 2000",
         "name": "Hitesh Panchal"
       },
@@ -709,7 +2737,7 @@
       ],
       "category": "Glazing & Façades",
       "coverAlt": "Curtain wall glazing on H.J. Doshi Hospital, Rajkot",
-      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/1793fac69f3efba1f5045aad22da5dc58f644fb4-1304x990.webp?w=1600&q=75&auto=format",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/01120282e9f997cf1503b66043fc1e42fa3010af-1536x1024.png?w=1600&q=75&auto=format",
       "excerpt": "A curtain wall is a complete non-structural glass envelope hung off the building frame; structural glazing is a technique that bonds glass to its frame for a frameless look. Here's how to choose.",
       "faqs": [
         {
@@ -968,7 +2996,7 @@
       ],
       "category": "Buyer’s Guide",
       "coverAlt": "Spider-fixed glass façade of the auditorium project in Vapi",
-      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/a4ca7502e99107cf1048bfc32a68c52ec3cbc54a-1300x892.webp?w=1600&q=75&auto=format",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/b5218df9db41e32e2debf3ce8914e56ac3fc3796-1536x1024.png?w=1600&q=75&auto=format",
       "excerpt": "Toughened glass is stronger and shatters into small blunt granules; laminated glass holds together when broken thanks to a plastic interlayer. Here's how to pick the right one — or combine both.",
       "faqs": [
         {
@@ -1241,7 +3269,7 @@
       ],
       "category": "Windows & Doors",
       "coverAlt": "Aluminium curtain-wall glazing on the GFSU campus building, Gandhinagar",
-      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/84ca904f29af0ced1ba3459d25f0d9f9f5956c13-966x1148.webp?w=1600&q=75&auto=format",
+      "coverUrl": "https://cdn.sanity.io/images/ctud63ec/production/a2368cf90a9c322d9d3cc97bd7377bb488a808af-1536x1024.png?w=1600&q=75&auto=format",
       "excerpt": "Aluminium windows suit Gujarat's hot summers and heavy monsoon because they don't warp, rot or corrode — but the finish, glass and drainage decide how long they last. Here's what to look for.",
       "faqs": [
         {
