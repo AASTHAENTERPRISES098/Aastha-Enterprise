@@ -21,21 +21,30 @@ name: Website checks
 # `next build` also runs TypeScript, so there is no separate typecheck step —
 # a type error fails the build.
 #
-# ## Bun here, npm on Cloudflare
+# ## Bun here AND on Cloudflare — keep it that way
 #
-# 🔴 The repo commits `bun.lock` and no `package-lock.json`. Cloudflare
-# auto-detects npm and runs `npm install`, which ignores `bun.lock` entirely —
-# so production resolves dependencies unpinned and can differ from what this
-# job tested. Closing that gap means picking one: either commit a
-# package-lock.json and have Cloudflare run `npm ci`, or set Cloudflare's build
-# command to use bun. Until then, treat a green run here as "the code is fine",
-# not "the exact dependency tree Cloudflare will use is fine".
+# The repo commits `bun.lock` and no `package-lock.json`. Cloudflare originally
+# ran `npm install`, which ignores `bun.lock` entirely, so production resolved
+# an unpinned dependency tree that this job never tested. Cloudflare's build
+# command is now `bun install --frozen-lockfile && bun run build`, which closes
+# that gap.
+#
+# The mis-detection is worth knowing about: Cloudflare looks for the old binary
+# `bun.lockb`, not the text `bun.lock` that Bun 1.2+ writes, so it silently
+# falls back to npm. Setting the build command explicitly is what overrides it.
+#
+# 🔴 BUN_VERSION below must match the `BUN_VERSION` variable on the Cloudflare
+# Pages project. Pinned rather than `latest` so a new Bun release cannot change
+# what CI tests without also changing what production builds.
 
 on:
   pull_request:
   push:
     branches: [main]
   workflow_dispatch:
+
+env:
+  BUN_VERSION: '1.3.14' # matches the Cloudflare Pages BUN_VERSION variable
 
 jobs:
   check:
@@ -45,7 +54,7 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: latest
+          bun-version: ${{ env.BUN_VERSION }}
 
       # --frozen-lockfile so a lockfile that was never committed fails here
       # rather than on someone else's machine.
