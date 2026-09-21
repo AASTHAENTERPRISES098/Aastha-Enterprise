@@ -1,0 +1,21 @@
+{
+  "name": "Aastha Enterprise — Engineers & Contractors",
+  "short_name": "Aastha",
+  "description": "Aluminium, glazing, furniture and interior contractors in Vadodara since 2000.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F8F6F1",
+  "theme_color": "#26241F",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Stone & Ember — design tokens (Aastha-Design-System.md §1–§3)
+   Never introduce a fifth hue. Ember is THE accent — use sparingly.
+--------------------------------------------------------------------------- */
+
+@theme {
+  /* Core palette */
+  --color-bone: #f8f6f1;
+  --color-stone: #d8d2c7;
+  --color-charcoal: #26241f;
+  --color-ember: #c7501f;
+
+  /* Extended (derived) */
+  --color-charcoal-deep: #1c1a16;
+  --color-text-muted: #57524a;
+  --color-stone-muted: #a39c8f;
+  --color-ember-hover: #a8431a;
+  --color-hairline-light: rgb(38 36 31 / 0.15);
+  --color-hairline-dark: rgb(239 234 226 / 0.18);
+
+  /* Type scale (fluid, mobile-first) */
+  --text-display-xl: clamp(2.75rem, 9vw, 7rem);
+  --text-display-xl--line-height: 1.05;
+  --text-h2: clamp(2rem, 5vw, 4rem);
+  --text-h2--line-height: 1.1;
+  --text-h3: clamp(1.4rem, 3vw, 2.25rem);
+  --text-h3--line-height: 1.25;
+  --text-metric: clamp(3rem, 8vw, 6.5rem);
+  --text-metric--line-height: 1;
+  --text-label: 0.75rem;
+  --text-label--line-height: 1.4;
+  --text-label--letter-spacing: 0.12em;
+  --text-rail: 0.7rem;
+  --text-rail--line-height: 1.4;
+  --text-rail--letter-spacing: 0.12em;
+
+  /* Layout */
+  --container-site: 90rem; /* 1440px */
+  --radius-btn: 6px;
+  --radius-card: 2px;
+
+  /* Motion */
+  --ease-power3: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* Font families come from next/font CSS variables set on <html> */
+@theme inline {
+  --font-display: var(--font-libre-caslon), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-pontano-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", monospace;
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+--------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bone);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-ember);
+  color: var(--color-bone);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Keyframes (marquee, ripple, ember shimmer)
+--------------------------------------------------------------------------- */
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* CTA band headline: bone base with a slow ember sweep (used ONCE per page) */
+@keyframes ember-shimmer {
+  0%,
+  100% {
+    background-position: 200% center;
+  }
+  50% {
+    background-position: 0% center;
+  }
+}
+
+.text-shimmer {
+  background: linear-gradient(
+    100deg,
+    var(--color-bone) 42%,
+    var(--color-ember) 50%,
+    var(--color-bone) 58%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: ember-shimmer 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text-shimmer {
+    animation: none;
+    background: none;
+    color: var(--color-bone);
+  }
+}
+
+/* Featured-work showcase — content swap on step change */
+@keyframes step-fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+.animate-step {
+  animation: step-fade 0.45s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-step {
+    animation: none;
+  }
+}
+
+/* Decorative ghost numerals — drawn via ::after so contrast checkers
+   (which only evaluate real text nodes) skip this intentionally
+   near-invisible ornament. */
+.ghost-numeral::after {
+  content: attr(data-numeral);
+}
